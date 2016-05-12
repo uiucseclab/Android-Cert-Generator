@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.handmark.pulltorefresh.library.internal.FlippedProgressBar android:layout_gravity="left" android:id="@id/pulling_left_progressbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="false" android:layout_weight="5.0" style="?android:attr/progressBarStyleHorizontal" />
+    <ProgressBar android:layout_gravity="right" android:id="@id/pulling_right_progressbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="false" android:layout_weight="5.0" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

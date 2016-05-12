@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_bluegrey_80" android:id="@id/assisted_onboarding_contact_header" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.widget.text.BetterTextView android:id="@id/assisted_onboarding_contact_list_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/assisted_onboarding_contact_list_header" style="@style/Widget.Header.FBUi.List" />
+</com.facebook.widget.CustomLinearLayout>

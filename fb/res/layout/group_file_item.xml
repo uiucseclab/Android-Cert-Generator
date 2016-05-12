@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/group_files_list_item_height">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:ellipsize="end" android:id="@id/file_name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/TextAppearance.FBUi.Cell.Title" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/file_info_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.FBUi.Cell.Meta" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:id="@id/file_date_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.FBUi.Cell.Meta" />
+    </LinearLayout>
+    <ImageButton android:paddingLeft="@dimen/group_files_list_item_menu_icon_padding_left" android:paddingRight="@dimen/group_files_list_item_menu_icon_padding_right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/three_dots_vertical_dark_grey_l" android:tint="@color/fbui_bluegrey_20" android:contentDescription="@string/groups_files_menu_options" app:layout_useAsAuxView="true" style="@style/Widget.Button.FBUi" />
+</merge>

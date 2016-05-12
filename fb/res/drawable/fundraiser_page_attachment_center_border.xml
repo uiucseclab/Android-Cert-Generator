@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/fundraiser_page_attachment_body_center_border_margin" android:right="@dimen/fundraiser_page_attachment_body_center_border_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fundraiser_page_attachment_header_profile_photo_border" />
+        </shape>
+    </item>
+    <item android:top="@dimen/fundraiser_page_attachment_body_center_border_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fbui_white" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/feed_attachment_bg_bottom" android:top="@dimen/fundraiser_page_attachment_body_center_border_width" />
+</layer-list>

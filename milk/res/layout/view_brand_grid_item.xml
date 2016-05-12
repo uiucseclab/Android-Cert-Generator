@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <ImageButton android:id="@id/icon" android:background="@drawable/normal_user_halo" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/nearly_white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/name" android:layout_width="83.0dip" android:layout_height="fill_parent" android:layout_marginTop="13.0dip" android:maxLines="2" android:lineSpacingMultiplier="1.2" volt:fontPath="fonts/helv-md.otf" />
+</LinearLayout>

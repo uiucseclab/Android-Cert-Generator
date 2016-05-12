@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.text.BetterTextView android:id="@id/prompt_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/v2_prompt_title_text_style" />
+    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="end|center|top" android:id="@id/prompt_dismiss_button" android:focusable="true" android:layout_width="@dimen/v2_prompt_dismiss_button_size" android:layout_height="@dimen/v2_prompt_dismiss_button_size" android:layout_marginLeft="@dimen/v2_prompt_flyout_contents_margin" android:layout_marginTop="@dimen/v2_prompt_dismiss_button_margin_top" android:src="@drawable/dismiss_x" android:layout_marginStart="@dimen/v2_prompt_flyout_contents_margin" fb:glyphColor="@color/feed_story_subtitle_text_color" />
+</LinearLayout>

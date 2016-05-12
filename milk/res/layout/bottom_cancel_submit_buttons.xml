@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/cancel_submit_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/ButtonBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cancel_button" android:text="@string/cancel" style="@style/ButtonBar.Button.Negative" />
+    <Button android:id="@id/submit_button" android:text="@string/submit" style="@style/ButtonBar.Button.Positive" />
+</LinearLayout>

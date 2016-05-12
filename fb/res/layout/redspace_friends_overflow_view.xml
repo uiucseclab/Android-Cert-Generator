@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.redspace.ui.RedSpaceFriendsOverflowImageView android:id="@id/redspace_item_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.FBUi.Small" android:id="@id/redspace_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/redspace_overflow" style="@style/RedSpaceGridItemTitle" />
+</merge>

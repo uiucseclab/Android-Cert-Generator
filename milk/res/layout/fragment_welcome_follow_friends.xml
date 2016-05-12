@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <LinearLayout android:orientation="vertical" android:id="@id/header_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="45.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="26.0dip" android:textColor="@color/lighter_grey_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="38.0dip" android:text="@string/welcome_title" volt:fontPath="fonts/helv-lt.otf" style="@style/Title" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/lighter_grey_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/welcome_fb_blurb" volt:fontPath="fonts/helv-lt.otf" style="@style/Subtitle" />
+    </LinearLayout>
+    <GridView android:id="@id/friends" android:paddingBottom="50.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:horizontalSpacing="-43.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" android:layout_below="@id/header_container" android:layout_centerHorizontal="true" android:overScrollMode="never" />
+    <Button android:id="@id/done_button" android:text="@string/welcome_done" android:layout_alignParentBottom="true" style="@style/ButtonBar.Button.Positive" />
+    <ProgressBar android:id="@id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

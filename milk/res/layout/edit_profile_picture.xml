@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="130.0dip" android:layout_height="112.0dip" android:layout_marginTop="36.0dip" android:layout_marginBottom="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/profile_photo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/profile_photo_none" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/icon_user_profile_placeholder" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/profile_photo_edit" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_profile_edit" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.loadingindicator.LoadingIndicatorView android:id="@id/empty_state_loading_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/empty_state_loading_spinner_margin" android:layout_marginBottom="@dimen/empty_state_loading_spinner_margin" fb:imageSize="large" />
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/empty_state_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.facebook.resources.ui.FbTextView android:textSize="@dimen/empty_state_text_size" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_state_text" android:paddingLeft="@dimen/empty_state_text_side_padding" android:paddingRight="@dimen/empty_state_text_side_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.facebook.fbui.widget.contentview.ContentView android:layout_gravity="bottom|center" android:id="@id/trending_chaining" android:background="@drawable/search_pivot_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:titleTextAppearance="@style/PivotContentViewTitleTextAppearance" fb:subtitleTextAppearance="@style/PivotContentViewSubtitleTextAppearance" fb:titleMaxLines="1" fb:subtitleMaxLines="2" fb:thumbnailSize="large" fb:maxLinesFromThumbnailSize="false" />
+</merge>

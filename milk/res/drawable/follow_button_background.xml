@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <item android:drawable="@drawable/button_following" app:state_following="true" />
+    <item android:drawable="@drawable/button_follow" app:state_following="false" />
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/repost" android:background="@color/translucent_black_40_percent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <Button android:textSize="14.0dip" android:textColor="@color/nearly_white" android:layout_gravity="center" android:id="@id/fullscreen_positive_button" android:background="@drawable/outlined_text_button" android:layout_width="250.0dip" android:layout_height="45.0dip" volt:fontPath="fonts/helv-lt.otf" />
+    <Button android:textSize="14.0dip" android:textColor="@color/nearly_white" android:layout_gravity="center" android:id="@id/fullscreen_cancel_button" android:background="@drawable/outlined_text_button" android:layout_width="252.0dip" android:layout_height="45.0dip" android:layout_marginTop="21.0dip" android:text="@string/cancel" volt:fontPath="fonts/helv-lt.otf" />
+</LinearLayout>

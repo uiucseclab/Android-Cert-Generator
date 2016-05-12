@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/my_profile_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <FrameLayout android:id="@id/profile_user_details" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/background_photo" android:layout_width="fill_parent" android:layout_height="@dimen/my_profile_background_photo_height" android:scaleType="centerCrop" />
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/photo_halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_placeholder_profile" />
+            <ImageView android:layout_gravity="center" android:id="@id/photo" android:layout_width="@dimen/user_photo_size" android:layout_height="@dimen/user_photo_size" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gradient_bottom_user_screen" android:scaleType="fitXY" />
+        <RelativeLayout android:layout_gravity="bottom|center" android:id="@id/profile_details_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/nearly_white" android:id="@id/num_following" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/following_text" volt:fontPath="fonts/helv-roman.otf" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/light_grey_text" android:id="@id/following_text" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/following_label" android:layout_toLeftOf="@id/split_bar" volt:fontPath="fonts/helv-lt.otf" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/light_grey_text" android:id="@id/split_bar" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="|" android:layout_centerHorizontal="true" volt:fontPath="fonts/helv-lt.otf" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/nearly_white" android:id="@id/num_followers" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/split_bar" volt:fontPath="fonts/helv-roman.otf" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/light_grey_text" android:id="@id/followers_text" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/followers_label" android:layout_toRightOf="@id/num_followers" volt:fontPath="fonts/helv-lt.otf" />
+        </RelativeLayout>
+    </FrameLayout>
+    <com.samsung.milk.milkvideo.views.MyProfileVideoTabs android:id="@id/my_profile_list_header_tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/profile_user_details" />
+</RelativeLayout>

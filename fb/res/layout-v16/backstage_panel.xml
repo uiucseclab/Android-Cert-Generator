@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.backstage.consumption.BackstagePanelImageView android:id="@id/backstage_panel_profile" android:layout_width="@dimen/backstage_panel_profile_size" android:layout_height="@dimen/backstage_panel_profile_size" android:layout_marginTop="@dimen/profile_picture_padding" android:layout_marginRight="@dimen/profile_picture_padding" android:layout_marginBottom="@dimen/profile_picture_padding" android:scaleType="centerCrop" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/backstage_panel_name_text_size" android:textColor="@android:color/white" android:id="@id/backstage_panel_name" android:paddingLeft="@dimen/backstage_panel_name_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/backstage_panel_name_text_size" android:textColor="@android:color/darker_gray" android:layout_gravity="center_vertical" android:id="@id/backstage_panel_subtext" android:paddingLeft="@dimen/backstage_panel_name_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/backstage_panel_badge_margin_side" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <ViewStub android:id="@id/backstage_panel_update" android:layout="@layout/backstage_panel_update" android:layout_width="@dimen/backstage_panel_profile_size" android:layout_height="@dimen/backstage_panel_profile_size" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feed.permalink.PermalinkLinearLayout android:orientation="vertical" android:background="@color/pandora_benny_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pandora_album_mediaset_listview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.facebook.photos.pandora.ui.listview.PandoraFeedListView android:id="@id/comment_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.photos.pandora.common.ui.views.PandoraBennyLoadingSpinnerView android:layout_gravity="center" android:id="@id/pandora_loading_spinner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/pandora_benny_banner_no_photos" android:textColor="@color/fbui_text_light" android:gravity="center" android:id="@id/pandora_error_message" android:background="@color/pandora_benny_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_photos_to_show" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/new_comments_button_stub" android:layout="@layout/feedback_new_comments_pill_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/old_comment_composer_stub" android:layout="@layout/old_comment_composer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/new_comment_composer_stub" android:layout="@layout/new_comment_composer_inflated_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.facebook.feed.permalink.PermalinkLinearLayout>

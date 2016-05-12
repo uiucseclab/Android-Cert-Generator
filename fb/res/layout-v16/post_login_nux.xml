@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/post_login_nux_logo" android:layout_width="wrap_content" android:layout_height="100.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xxxlarge" android:textColor="@color/fbui_bluegrey_40" android:gravity="center" android:id="@id/post_login_nux_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:fontFamily="sans-serif-light" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_bluegrey_40" android:gravity="center" android:id="@id/post_login_nux_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+        <com.facebook.resources.ui.FbButton android:id="@id/post_login_nux_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/work_post_login_nux_button" android:textAllCaps="true" style="?attr/postLoginNuxButtonStyle" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.backstage.consumption.BackstageSwipeRefreshLayout android:id="@id/backstage_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/backstage_lists" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    </com.facebook.backstage.consumption.BackstageSwipeRefreshLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:id="@id/backstage_grid_view_footer_bar" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/backstage_reactions_button" android:padding="@dimen/backstage_grid_view_footer_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_smile_l" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/backstage_import_button" android:padding="@dimen/backstage_grid_view_footer_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_photo_l" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/backstage_camera_button" android:padding="@dimen/backstage_grid_view_footer_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_camera_l" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <LinearLayout android:orientation="horizontal" android:id="@id/controls" android:background="@drawable/video_controls_gradient" android:paddingBottom="7.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/seek_bar" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:progressDrawable="@drawable/seek_bar" android:thumb="@drawable/control_thumb" android:thumbOffset="15.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/nearly_white" android:layout_gravity="center_vertical" android:id="@id/time_remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="TIME" volt:fontPath="fonts/helv-roman.otf" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/info_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/button_info" />
+    </LinearLayout>
+    <ImageView android:id="@id/play_pause_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_pause_video" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/close_button" android:background="@null" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/button_close_video" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

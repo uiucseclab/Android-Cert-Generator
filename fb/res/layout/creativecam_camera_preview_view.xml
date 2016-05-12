@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.optic.CameraPreviewView android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" fb:photoCaptureQuality="high" fb:enablePinchZoom="true" fb:singleTapGesture="focus|metering" fb:lockMediaOrientation="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />
+    <com.facebook.photos.creativecam.ui.FocusView android:id="@id/focus_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.widget.CustomFrameLayout>

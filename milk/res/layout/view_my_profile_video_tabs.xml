@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.95"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tabbed_header_reposts_tab" android:text="@string/repost_label" style="@style/ButtonBar.Button.Negative" />
+    <TextView android:id="@id/tabbed_header_starred_tab" android:text="@string/favorites_label" style="@style/ButtonBar.Button.Negative" />
+</merge>

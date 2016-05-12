@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fragment_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <FrameLayout android:id="@id/video_player_container" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.samsung.milk.milkvideo.views.VideoPlayerControlView android:id="@id/video_player_controls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/video_player_container" />
+    <ImageView android:id="@id/thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <FrameLayout android:id="@id/buffering_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/video_player_container">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.samsung.milk.milkvideo.views.ActionContainerView android:id="@id/video_action_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/video_player_container" volt:should_be_portrait="false" />
+    <com.samsung.milk.milkvideo.views.VideoInfoView android:id="@id/video_info" android:background="@color/translucent_black_90_percent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/video_player_container" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gradient_playback" android:scaleType="fitXY" android:layout_below="@id/video_player_container" />
+</RelativeLayout>

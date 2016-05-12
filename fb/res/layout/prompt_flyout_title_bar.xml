@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/v2_prompt_flyout_contents_margin" android:layout_marginRight="@dimen/v2_prompt_flyout_contents_margin" android:layout_marginStart="@dimen/v2_prompt_flyout_contents_margin" android:layout_marginEnd="@dimen/v2_prompt_flyout_contents_margin">
+        <include layout="@layout/prompt_flyout_title" />
+        <include layout="@layout/prompt_flyout_subtitle" />
+    </LinearLayout>
+</merge>

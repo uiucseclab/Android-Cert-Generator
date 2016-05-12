@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="review_composer_rating_selector_label">
+        <item>I hated it</item>
+        <item>"I didn't like it"</item>
+        <item>"It's okay"</item>
+        <item>I liked it</item>
+        <item>I loved it</item>
+    </string-array>
+    <integer-array name="multi_post_singleplayer_text_post_char_count">
+        <item>50</item>
+        <item>90</item>
+        <item>140</item>
+        <item>180</item>
+        <item>210</item>
+    </integer-array>
+    <integer-array name="multi_post_singleplayer_text_line_count">
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="multi_post_multiplayer_text_post_char_count">
+        <item>50</item>
+        <item>90</item>
+        <item>140</item>
+        <item>180</item>
+        <item>210</item>
+    </integer-array>
+    <integer-array name="multi_post_multiplayer_text_line_count">
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="review_translation_star_label">
+        <item>Tap a star to rate</item>
+        <item>"&lt;b>Very bad:&lt;/b> I can't understand anything."</item>
+        <item>"&lt;b>Bad:&lt;/b> I can't understand most of this."</item>
+        <item>&lt;b>OK:&lt;/b> I can understand enough of this.</item>
+        <item>&lt;b>Good:&lt;/b> I can understand most of this.</item>
+        <item>&lt;b>Very good:&lt;/b> I can understand everything.</item>
+    </string-array>
+    <array name="uf_rating_images_default">
+        <item>@drawable/emoji_uf_sd_main_really_sad_default</item>
+        <item>@drawable/emoji_uf_sd_main_sad_default</item>
+        <item>@drawable/emoji_uf_sd_main_neutral_default</item>
+        <item>@drawable/emoji_uf_sd_main_happy_default</item>
+        <item>@drawable/emoji_uf_sd_main_really_happy_default</item>
+    </array>
+    <array name="uf_rating_images_pressed">
+        <item>@drawable/emoji_uf_sd_main_really_sad_pressed</item>
+        <item>@drawable/emoji_uf_sd_main_sad_pressed</item>
+        <item>@drawable/emoji_uf_sd_main_neutral_pressed</item>
+        <item>@drawable/emoji_uf_sd_main_happy_pressed</item>
+        <item>@drawable/emoji_uf_sd_main_really_happy_pressed</item>
+    </array>
+    <string-array name="custom_expiration_dialog_hour">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="custom_expiration_dialog_minutes">
+        <item>00</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="custom_expiration_dialog_am_pm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="event_dashboard_time_am_pm_symbols">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="hours_picker_main_options">
+        <item>Open for selected hours</item>
+        <item>Always open</item>
+        <item>No hours available</item>
+        <item>Permanently closed</item>
+    </string-array>
+    <string-array name="logger_levels">
+        <item>Default</item>
+        <item>Verbose</item>
+        <item>Debug</item>
+        <item>Info</item>
+        <item>Warn</item>
+        <item>Error</item>
+        <item>Assert</item>
+    </string-array>
+    <string-array name="logger_levels_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="strictsocket_modes">
+        <item>Off</item>
+        <item>Log</item>
+        <item>Enforce</item>
+        <item>Log (Tor mode)</item>
+        <item>Enforce (Tor mode)</item>
+    </string-array>
+    <string-array name="strictsocket_modes_values">
+        <item>DISABLED</item>
+        <item>LOG</item>
+        <item>ENFORCE</item>
+        <item>LOG_TOR</item>
+        <item>ENFORCE_TOR</item>
+    </string-array>
+    <string-array name="shipping_address_types">
+        <item>@string/shipping_address_type_home</item>
+        <item>@string/shipping_address_type_work</item>
+        <item>@string/shipping_address_type_other</item>
+    </string-array>
+    <array name="msgr_thread_view_particle_bill_frames">
+        <item>@drawable/msgr_thread_view_particle_bill1</item>
+        <item>@drawable/msgr_thread_view_particle_bill1</item>
+        <item>@drawable/msgr_thread_view_particle_bill2</item>
+        <item>@drawable/msgr_thread_view_particle_bill2</item>
+        <item>@drawable/msgr_thread_view_particle_bill1</item>
+        <item>@drawable/msgr_thread_view_particle_bill3</item>
+        <item>@drawable/msgr_thread_view_particle_bill3</item>
+        <item>@drawable/msgr_thread_view_particle_bill4</item>
+        <item>@drawable/msgr_thread_view_particle_bill5</item>
+        <item>@drawable/msgr_thread_view_particle_bill6</item>
+        <item>@drawable/msgr_thread_view_particle_bill7</item>
+        <item>@drawable/msgr_thread_view_particle_bill8</item>
+        <item>@drawable/msgr_thread_view_particle_bill8</item>
+        <item>@drawable/msgr_thread_view_particle_bill8</item>
+        <item>@drawable/msgr_thread_view_particle_bill9</item>
+        <item>@drawable/msgr_thread_view_particle_bill9</item>
+        <item>@drawable/msgr_thread_view_particle_bill9</item>
+        <item>@drawable/msgr_thread_view_particle_bill10</item>
+        <item>@drawable/msgr_thread_view_particle_bill11</item>
+        <item>@drawable/msgr_thread_view_particle_bill12</item>
+        <item>@drawable/msgr_thread_view_particle_bill13</item>
+        <item>@drawable/msgr_thread_view_particle_bill14</item>
+        <item>@drawable/msgr_thread_view_particle_bill14</item>
+        <item>@drawable/msgr_thread_view_particle_bill14</item>
+    </array>
+    <array name="msgr_thread_view_particle_coin_frames">
+        <item>@drawable/msgr_thread_view_particle_coin1</item>
+        <item>@drawable/msgr_thread_view_particle_coin2</item>
+        <item>@drawable/msgr_thread_view_particle_coin3</item>
+    </array>
+    <array name="msgr_thread_view_particle_snow_variations">
+        <item>@drawable/msgr_thread_view_particle_snow1</item>
+        <item>@drawable/msgr_thread_view_particle_snow2</item>
+        <item>@drawable/msgr_thread_view_particle_snow3</item>
+        <item>@drawable/msgr_thread_view_particle_snow4</item>
+        <item>@drawable/msgr_thread_view_particle_snow5</item>
+        <item>@drawable/msgr_thread_view_particle_snow6</item>
+        <item>@drawable/msgr_thread_view_particle_snow7</item>
+    </array>
+    <item type="array" name="APKTOOL_DUMMY_0">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3">false</item>
+    <item type="array" name="APKTOOL_DUMMY_4">false</item>
+    <item type="array" name="APKTOOL_DUMMY_5">false</item>
+    <item type="array" name="APKTOOL_DUMMY_6">false</item>
+    <item type="array" name="APKTOOL_DUMMY_7">false</item>
+    <item type="array" name="APKTOOL_DUMMY_8">false</item>
+    <item type="array" name="APKTOOL_DUMMY_9">false</item>
+    <item type="array" name="APKTOOL_DUMMY_a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_10">false</item>
+    <item type="array" name="APKTOOL_DUMMY_11">false</item>
+    <item type="array" name="APKTOOL_DUMMY_12">false</item>
+    <item type="array" name="APKTOOL_DUMMY_13">false</item>
+    <item type="array" name="APKTOOL_DUMMY_14">false</item>
+    <item type="array" name="APKTOOL_DUMMY_15">false</item>
+    <item type="array" name="APKTOOL_DUMMY_16">false</item>
+    <item type="array" name="APKTOOL_DUMMY_17">false</item>
+    <item type="array" name="APKTOOL_DUMMY_18">false</item>
+    <item type="array" name="APKTOOL_DUMMY_19">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_20">false</item>
+    <item type="array" name="APKTOOL_DUMMY_21">false</item>
+    <item type="array" name="APKTOOL_DUMMY_22">false</item>
+    <item type="array" name="APKTOOL_DUMMY_23">false</item>
+    <item type="array" name="APKTOOL_DUMMY_24">false</item>
+    <item type="array" name="APKTOOL_DUMMY_25">false</item>
+    <item type="array" name="APKTOOL_DUMMY_26">false</item>
+    <item type="array" name="APKTOOL_DUMMY_27">false</item>
+    <item type="array" name="APKTOOL_DUMMY_28">false</item>
+    <item type="array" name="APKTOOL_DUMMY_29">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_30">false</item>
+    <item type="array" name="APKTOOL_DUMMY_31">false</item>
+    <item type="array" name="APKTOOL_DUMMY_32">false</item>
+    <item type="array" name="APKTOOL_DUMMY_33">false</item>
+    <item type="array" name="APKTOOL_DUMMY_34">false</item>
+    <item type="array" name="APKTOOL_DUMMY_35">false</item>
+    <item type="array" name="APKTOOL_DUMMY_36">false</item>
+    <item type="array" name="APKTOOL_DUMMY_37">false</item>
+    <item type="array" name="APKTOOL_DUMMY_49">false</item>
+</resources>

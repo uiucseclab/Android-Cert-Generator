@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="groups_groupgriditem_total_width">150.0dip</dimen>
+    <dimen name="groups_groupgriditem_image_size">128.0dip</dimen>
+    <dimen name="groups_groupgriditem_name_spacing_top">160.0dip</dimen>
+    <dimen name="groups_grid_pog_vertical_spacing">30.0dip</dimen>
+    <dimen name="groups_grid_pog_horizontal_spacing">20.0dip</dimen>
+    <dimen name="fbui_popover_window_max_width">520.0dip</dimen>
+    <dimen name="see_first_img_margin_horizontal">46.0dip</dimen>
+    <dimen name="see_first_img_width">89.0dip</dimen>
+    <dimen name="see_first_img_height">128.0dip</dimen>
+    <item type="dimen" name="collage_plus_n_text_size">@dimen/fbui_text_size_xxxlarge_6</item>
+    <dimen name="pog_total_width">150.0dip</dimen>
+    <dimen name="pog_image_size">128.0dip</dimen>
+    <dimen name="pog_name_spacing_top">160.0dip</dimen>
+    <dimen name="harrison_tab_bar_height">48.0dip</dimen>
+</resources>

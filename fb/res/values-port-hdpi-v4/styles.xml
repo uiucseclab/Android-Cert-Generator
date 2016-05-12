@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContactsTermsScrollViewTheme">
+        <item name="android:fadeScrollbars">true</item>
+    </style>
+    <style name="ContactsTermsOptOutTheme">
+        <item name="android:layout_marginBottom">@dimen/registration_contacts_terms_large_vertical_margin</item>
+    </style>
+    <style name="ContactsTermsTermTextTitle">
+        <item name="android:textSize">@dimen/fbui_text_size_xlarge</item>
+    </style>
+    <style name="ContactsTermsTermTextSubtitle">
+        <item name="android:textSize">@dimen/fbui_text_size_medium</item>
+    </style>
+    <style name="ContactsTermsTermTextTheme">
+        <item name="android:textSize">@dimen/fbui_text_size_small</item>
+    </style>
+</resources>

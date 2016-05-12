@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="profile_options_with_photo">
+        <item>@string/profile_add_from_gallery</item>
+        <item>@string/profile_add_from_camera</item>
+        <item>@string/profile_remove</item>
+    </string-array>
+    <string-array name="profile_options_without_photo">
+        <item>@string/profile_add_from_gallery</item>
+        <item>@string/profile_add_from_camera</item>
+    </string-array>
+    <string-array name="roboguice_modules">
+        <item>com.samsung.milk.milkvideo.injection.NachosModule</item>
+    </string-array>
+</resources>

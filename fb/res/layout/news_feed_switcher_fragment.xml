@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomViewPager android:id="@id/feed_fragments_switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:isSwipingEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.RecyclerView android:textColor="@color/topics_feed_switcher_text_color" android:layout_gravity="bottom" android:id="@id/feed_fragments_switcher_selector" android:background="@color/fbui_facebook_blue" android:layout_width="fill_parent" android:layout_height="44.0dip" />
+</com.facebook.widget.CustomViewPager>

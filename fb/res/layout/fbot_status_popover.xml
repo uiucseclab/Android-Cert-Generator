@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.CustomLinearLayout android:orientation="vertical" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.text.BetterTextView android:textAppearance="@style/TextAppearance.FBUi.DialogWindowTitle" android:gravity="center_vertical" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tor_status_dialog_title" />
+    <com.facebook.widget.CustomRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@id/progress" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/Widget.ProgressBar.FBUi" />
+        <com.facebook.widget.text.BetterTextView android:textAppearance="@style/TextAppearance.FBUi.Cell.Subtitle" android:gravity="center_vertical" android:id="@id/orbit_status" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/progress" android:layout_toStartOf="@id/progress" />
+        <com.facebook.widget.text.BetterTextView android:textAppearance="@style/TextAppearance.FBUi.Cell.Subtitle" android:gravity="center_vertical" android:id="@id/tor_status" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/progress" android:layout_below="@id/orbit_status" android:layout_toStartOf="@id/progress" />
+    </com.facebook.widget.CustomRelativeLayout>
+    <View android:id="@id/divider" android:background="@color/fbui_bluegrey_10" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.facebook.widget.text.BetterTextView android:textAppearance="@style/TextAppearance.FBUi.Cell.Meta" android:textColor="@color/fbui_btn_light_primary_text_enabled" android:gravity="center" android:id="@id/dismiss" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tor_status_dialog_dismiss" android:textAlignment="center" />
+</com.facebook.widget.CustomLinearLayout>

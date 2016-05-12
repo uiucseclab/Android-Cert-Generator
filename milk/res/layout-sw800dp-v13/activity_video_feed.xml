@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/activity_video_feed_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_video_feed_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fragment_category_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="right" android:id="@id/classic_rainbow_container" android:visibility="gone" android:layout_width="@dimen/video_feed_rainbow_bar_width_tablet" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fragment_video_player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

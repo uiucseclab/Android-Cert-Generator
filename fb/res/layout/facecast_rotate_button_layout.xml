@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:background="@drawable/facecast_rotate_button_background" android:padding="@dimen/facecast_rotate_button_padding" android:layout_width="@dimen/facecast_rotate_button_size" android:layout_height="@dimen/facecast_rotate_button_size" android:layout_margin="@dimen/facecast_standard_padding" android:src="@drawable/fbui_rotate_l" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" fb:glyphColor="@color/fbui_white" />
+</merge>

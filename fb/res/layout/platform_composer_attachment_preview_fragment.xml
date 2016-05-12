@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/composer_attachment_preview_root" android:padding="@dimen/platform_composer_common_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/composer_attachment_preview_attachment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/composer_attachment_preview_remove_button" android:padding="@dimen/underwood_remove_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/platform_composer_preview_attachment_remove_button_margin" android:layout_marginRight="@dimen/platform_composer_preview_attachment_remove_button_margin" android:src="@drawable/remove_icon" android:layout_marginEnd="@dimen/platform_composer_preview_attachment_remove_button_margin" />
+</FrameLayout>

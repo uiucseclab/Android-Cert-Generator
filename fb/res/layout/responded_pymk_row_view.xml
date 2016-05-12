@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.friending.common.list.CaspianFriendListItemView android:layout_width="fill_parent" android:layout_height="wrap_content" fb:thumbnailSize="large" fb:actionButtonHeight="@dimen/person_you_may_know_button_height" fb:actionButtonPaddingLeft="@dimen/person_you_may_know_button_horizontal_padding" fb:actionButtonPaddingTop="@dimen/person_you_may_know_button_vertical_padding" fb:actionButtonPaddingRight="@dimen/person_you_may_know_button_horizontal_padding" fb:actionButtonPaddingBottom="@dimen/person_you_may_know_button_vertical_padding" fb:actionButtonWidth="@dimen/responded_person_you_may_know_button_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

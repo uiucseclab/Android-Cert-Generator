@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@id/place_list_swipe_refresh" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.listview.BetterListView android:id="@id/place_picker_list_view_str" style="@style/PlacePickerList" />
+</android.support.v4.widget.SwipeRefreshLayout>

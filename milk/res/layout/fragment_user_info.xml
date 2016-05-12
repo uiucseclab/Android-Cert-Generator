@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <FrameLayout android:id="@id/spinner" android:background="@color/translucent_black_40_percent" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ScrollView android:id="@id/scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/edit_profile_picture" />
+            <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+            <com.samsung.milk.milkvideo.views.ValidationEditText android:id="@id/username_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="55.0dip" android:hint="@string/username_hint" android:drawableLeft="@drawable/validation_username_icon" volt:fontPath="fonts/helv-lt.otf" style="@style/FormField" />
+            <com.samsung.milk.milkvideo.views.ValidationEditText android:id="@id/email_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:hint="@string/email_hint" android:drawableLeft="@drawable/validation_email_icon" android:inputType="textEmailAddress" volt:fontPath="fonts/helv-lt.otf" style="@style/FormField" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/find_you" volt:fontPath="fonts/helv-lt.otf" style="@style/FormInstructions" />
+            <EditText android:id="@id/firstname_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:drawableLeft="@drawable/validation_firstname_icon" volt:fontPath="fonts/helv-lt.otf" style="@style/FormField" />
+            <EditText android:id="@id/lastname_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:drawableLeft="@drawable/validation_lastname_icon" volt:fontPath="fonts/helv-lt.otf" style="@style/FormField" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/cancel_submit_buttons" layout="@layout/bottom_cancel_submit_buttons" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/video_action_list" android:background="@color/translucent_black_65_percent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/video_action_replay" android:visibility="gone" android:text="@string/replay_button_text" android:drawableTop="@drawable/button_replay" style="@style/ActionButton" />
+        <TextView android:id="@id/video_action_repost" android:text="@string/repost_button_text" android:drawableTop="@drawable/button_repost_unlit" style="@style/ActionButton" />
+        <TextView android:id="@id/action_star" android:tag="" android:text="@string/favorite_button_text" android:drawableTop="@drawable/button_star_unlit" style="@style/ActionButton" />
+        <TextView android:id="@id/video_action_share" android:text="@string/share_button_text" android:drawableTop="@drawable/button_share" style="@style/ActionButton" />
+    </LinearLayout>
+</HorizontalScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/gradient" android:background="@drawable/gradient_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/repost_avatar_layout" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="29.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="right" android:id="@id/multiple_reposter_halo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/face_pile_halo" android:translationX="-4.0dip" />
+        <ImageView android:layout_gravity="right" android:id="@id/reposter_avatar_outline_halo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reposter_icon_halo" />
+        <RelativeLayout android:id="@id/facepile_stack" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</merge>

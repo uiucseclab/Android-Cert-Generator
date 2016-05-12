@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/signup_user_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
+    <ImageView android:id="@id/signup_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="129.0dip" android:src="@drawable/milk_video_logo" android:layout_centerHorizontal="true" />
+    <TextView android:gravity="center" android:id="@id/signup_signup_description" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" android:text="@string/signup_two_way_description" android:singleLine="false" android:layout_below="@id/signup_logo" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.25" style="@style/DialogPanelText" />
+    <ImageView android:gravity="center" android:id="@id/signup_facebook_button" android:background="@drawable/login_button_facebook" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_below="@id/signup_signup_description" android:layout_centerHorizontal="true" />
+    <ImageView android:gravity="center" android:id="@id/signup_google_button" android:background="@drawable/login_button_google" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_below="@id/signup_facebook_button" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/turquoise_text" android:id="@id/signup_login_button" android:padding="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/signup_login" android:layout_below="@id/signup_google_button" android:layout_centerHorizontal="true" volt:fontPath="fonts/helv-lt.otf" />
+    <TextView android:gravity="center" android:id="@id/signup_permission" android:layout_width="210.0dip" android:layout_height="wrap_content" android:layout_marginBottom="21.0dip" android:text="@string/signup_permission" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.25" style="@style/DialogPanelBottom" />
+    <FrameLayout android:id="@id/spinner" android:background="@color/translucent_black_80_percent" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

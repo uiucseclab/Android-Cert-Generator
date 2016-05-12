@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="48.0dip" android:layout_height="48.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/sc_session_background" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/sc_session_left_window" android:layout_width="27.0dip" android:layout_height="48.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="30.0dip" android:src="@drawable/sc_session_left_window" android:layout_marginEnd="30.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/sc_session_center_window" android:layout_width="27.0dip" android:layout_height="48.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/sc_session_center_window" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/sc_session_right_window" android:layout_width="27.0dip" android:layout_height="48.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/sc_session_right_window" android:layout_marginStart="30.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/sc_session_right_window_overlay" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="48.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/sc_session_center_window" android:layout_marginStart="30.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/sc_session_mask" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/cut_out" />
+    </FrameLayout>
+</merge>

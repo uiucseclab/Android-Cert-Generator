@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.SwitchCompat android:gravity="center_vertical" android:id="@id/groups_poll_setting_popover_item_switch" android:layout_width="fill_parent" android:layout_height="@dimen/groups_poll_setting_item_height" android:layout_marginLeft="@dimen/groups_poll_item_view_horizontal_padding" android:layout_marginRight="@dimen/groups_poll_item_view_horizontal_padding" android:layout_marginStart="@dimen/groups_poll_item_view_horizontal_padding" android:layout_marginEnd="@dimen/groups_poll_item_view_horizontal_padding" fb:layout_useAsAuxView="true" style="@style/Widget.Switch.Material" />
+</merge>

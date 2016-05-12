@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.milk.milkvideo.views.VerticalSeekBar android:id="@id/sidebar_seek_bar" android:background="@drawable/sidebar_seek_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@null" android:thumb="@null" />
+    <View android:id="@id/sidebar_thumb" android:background="@drawable/sidebar_thumb" android:layout_width="fill_parent" android:layout_height="6.6999817dip" />
+    <View android:id="@id/drop_shadow" android:background="@drawable/shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/brightener" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="matrix" />
+</merge>

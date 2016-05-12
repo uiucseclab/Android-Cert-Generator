@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="com_mixpanel_android_close">Close</string>
+    <string name="com_mixpanel_android_done">Done</string>
+    <string name="com_mixpanel_android_exit">Exit</string>
+    <string name="com_mixpanel_android_logo">By Mixpanel</string>
+    <string name="com_mixpanel_android_next">Next question</string>
+    <string name="com_mixpanel_android_notification_image">Image not displayed</string>
+    <string name="com_mixpanel_android_previous">Previous question</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">"New! You're in control - choose what info you want to share with apps."</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by %1$s</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="com.crashlytics.android.build_id">62a73133-979a-440c-aae1-7e62c3db3514</string>
+    <string name="login">LOG IN</string>
+    <string name="cancel">CANCEL</string>
+    <string name="submit">SUBMIT</string>
+    <string name="ok">OK</string>
+    <string name="next">Next</string>
+    <string name="repost_label">REPOSTS</string>
+    <string name="favorites_label">FAVORITES</string>
+    <string name="replay_button_text">REPLAY</string>
+    <string name="repost_button_text">REPOST</string>
+    <string name="favorite_button_text">FAVORITE</string>
+    <string name="share_button_text">SHARE</string>
+    <string name="repost_toast_text">You reposted this video</string>
+    <string name="favorite_toast_text">You favorited this video</string>
+    <string name="signup_signup_description">"Log in below to follow channels and
+repost, favorite, and share videos"</string>
+    <string name="signup_two_way_description">"Log in below to follow channels and
+repost, favorite, and share videos"</string>
+    <string name="signup_permission">"Milk Video will never post to Facebook
+or Google without your permission"</string>
+    <string name="signup_google_button_text">Google</string>
+    <string name="signup_samsung_button_text">Samsung</string>
+    <string name="signup_facebook_button_text">Facebook</string>
+    <string name="signup_login">LOG IN</string>
+    <string name="legal_text_header">"By continuing, you agree to Milk Video's"</string>
+    <string name="legal_links">%1$s • %2$s • %3$s</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="create_email_hint">EMAIL</string>
+    <string name="firstname_hint">First Name\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009</string>
+    <string name="lastname_hint">Last Name\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009</string>
+    <string name="sign_up_button_label">REGISTER</string>
+    <string name="find_you">Make it easy for your friends to find you</string>
+    <string name="get_to_know_you">"WE'D LOVE TO GET TO KNOW YOU!"</string>
+    <string name="missing_required_error">Please complete all required fields</string>
+    <string name="password_length_error">Password must be at least six characters</string>
+    <string name="your_info">YOUR INFO</string>
+    <string name="profile_add_photo">ADD PHOTO</string>
+    <string name="profile_add_from_gallery">Add From Gallery</string>
+    <string name="profile_add_from_camera">Add From Camera</string>
+    <string name="profile_remove">Remove</string>
+    <string name="profile_photo_dialog_title">Photo</string>
+    <string name="save">SAVE</string>
+    <string name="username_taken_error">Username is already taken. Please choose another username.</string>
+    <string name="invalid_email_error">Please enter a valid e-mail address</string>
+    <string name="email_taken_error">A user already exists with this e-mail</string>
+    <string name="email_not_recognized_error">This e-mail is not recognized</string>
+    <string name="password_placeholder">••••••••</string>
+    <string name="user_list_suggested">SUGGESTED</string>
+    <string name="user_list_channels">Channels</string>
+    <string name="welcome_show_more_button">SHOW MORE</string>
+    <string name="follow_friends_button">Follow Friends</string>
+    <string name="notification_follow_atleast_one_brand">You need at least one following. You will be following Milk Video now.</string>
+    <string name="views_label">views</string>
+    <string name="close_video">CLOSE VIDEO</string>
+    <string name="continue_video">BACK</string>
+    <string name="now">Now:</string>
+    <string name="followers_label">FOLLOWERS</string>
+    <string name="following_label">FOLLOWING</string>
+    <string name="brand_repost_text">POSTS</string>
+    <string name="user_repost_text">REPOSTS</string>
+    <string name="profile_details_separator">|</string>
+    <string name="sort_filter_list_header">SORT BY</string>
+    <string name="sort_filter_special_for_you">Special For You</string>
+    <string name="sort_filter_most_recent">Most Recent</string>
+    <string name="sort_filter_most_views">Most Views</string>
+    <string name="sort_filter_most_reposts">Most Reposts</string>
+    <string name="repost_repost_button_text">REPOST</string>
+    <string name="repost_undo_repost_button_text">UNDO REPOST</string>
+    <string name="full_screen_blurred_image_filename">fullscreenbackground.png</string>
+    <string name="facepile_more_view_text">MORE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="follow_friends">Follow Friends</string>
+    <string name="settings_general_title">GENERAL</string>
+    <string name="notifications">Notifications</string>
+    <string name="autoplay">Autoplay (Landscape)</string>
+    <string name="settings_about_title">ABOUT</string>
+    <string name="version_label">Version</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="copyright_and_licenses">Copyright &amp; Licenses</string>
+    <string name="help">Help</string>
+    <string name="settings_sign_out_text">LOG OUT</string>
+    <string name="follow_facebook_friends_title">Facebook Friends</string>
+    <string name="follower_fragment_title">FOLLOWERS</string>
+    <string name="following_fragment_title">FOLLOWING</string>
+    <string name="reposters_fragment_title">REPOSTED BY</string>
+    <string name="settings_follow_facebook_friends_title">FACEBOOK FRIENDS</string>
+    <string name="settings_follow_google_friends_title">GOOGLE FRIENDS</string>
+    <string name="login_forgot_your_password">Forgot your password?</string>
+    <string name="login_username_hint">USERNAME</string>
+    <string name="login_password_hint">PASSWORD</string>
+    <string name="login_failure_error_message">Username or Password is incorrect</string>
+    <string name="login_failure_try_again">Login failed. Please try again later</string>
+    <string name="facebook_app_id">710155682372111</string>
+    <string name="crashlytics_api_key">e8c9bf4b6c0ef98fb0589818a1e41b58db279a8f</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="reset_password_description">Enter your email to receive a link to create a new password</string>
+    <string name="reset_password_email_hint">Email</string>
+    <string name="reset_password_confirmation">"We've emailed you a link to
+reset your password"</string>
+    <string name="reset_confirmation_title">Emailed</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="search_see_all_users">See All Users</string>
+    <string name="search_all_users">ALL RESULTS</string>
+    <string name="no_results">No results</string>
+    <string name="search_users">USERS</string>
+    <string name="search_videos">VIDEOS</string>
+    <string name="privacy_policy_text">We promise to not sell your information to third parties. Probably.</string>
+    <string name="terms_of_service_text">"TERMS OF SERVICE FOR MILK VIDEO
+
+ Effective Date: October 23, 2014
+
+ Samsung Telecommunications America, LLC. together with its affiliates (“Samsung”, “we”, “us”, or “our”) is pleased to offer you Milk Video, an application for mobile devices that allows you to access video content provided by Samsung and its licensors (“Service”).\u0009 The Terms of Service (“Agreement”) is a binding contract between you and Samsung which governs the use of the Service.\u0009 The Service is only for your own personal use.\u0009 You may not use the Service for any commercial purpose or in any way not expressly permitted by this Agreement.\u0009 PLEASE READ THIS AGREEMENT CAREFULLY BEFORE ACCESSING OR USING THE SERVICE BECAUSE IT CONSTITUTES A BINDING LEGAL AGREEMENT BETWEEN YOU AND SAMSUNG.
+
+ THE SERVICE IS NOT INTENDED FOR USE BY ANYONE UNDER THE AGE OF 13.\u0009 IF YOU ARE UNDER THE AGE OF 13, YOU MAY NOT USE THE SERVICE OR PROVIDE SAMSUNG WITH ANY PERSONALLY IDENTIFIABLE INFORMATION.\u0009 If you are 13 or older but under the age of 18, you represent that you have reviewed these terms and conditions with your parent or legal guardian and that you and your parent or guardian understand and consent to these terms and conditions.\u0009 If you are a parent or guardian permitting a person under the age of 18 (“Minor”) to use the Service, you agree to: (i) supervise the Minor’s use of the Service; (ii) assume all risks associated with the Minor’s use of the Service, including the transmission of content to and from third parties via the Internet; (iii) assume any liability resulting from the Minor’s use of the Service; (iv) ensure the accuracy and truthfulness of all information submitted by the Minor; and (v) assume responsibility and are bound by this Agreement for the Minor’s access and use of the Service.
+
+ BY ACCESSING OR USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THIS AGREEMENT, AND YOU AGREE TO COMPLY WITH AND BE BOUND BY ITS TERMS.\u0009 IF YOU ARE NOT WILLING TO BE BOUND BY THE TERMS OF THIS AGREEMENT, YOU MAY NOT ACCESS OR USE THE SERVICE.\u0009 This Agreement incorporates the Samsung Account Terms and Conditions that you have already agreed to for your single sign-on user account with Samsung.\u0009 If there is any conflict between this Agreement and the Samsung Account Terms and Conditions, this Agreement will prevail as specifically related to the Service, but only to the extent of actual conflict. Your use of the Service is subject to Samsung’s privacy policy, located at http://www.samsung.com/us/common/privacy.html (“Privacy Policy”), which is hereby incorporated by this reference, and other policies that Samsung may adopt from time to time.
+
+ Samsung may modify this Agreement from time to time.\u0009 If we change this Agreement, we will update the Effective Date listed above.\u0009 If you continue to access or use the Service after such modification, you will be deemed to have read, understood and unconditionally agreed to such changes.
+
+ NOTICE: SAMSUNG DOES NOT MONITOR ALL CONTENT AVAILABLE THROUGH THE SERVICE. CERTAIN VIEWERS MAY FIND CERTAIN CONTENT INAPPROPRIATE, DISTASTEFUL OR OFFENSIVE. YOU UNDERSTAND AND AGREE THAT YOU USE THE SERVICE AT YOUR OWN RISK.
+
+ 1. LICENSE
+
+ 1.1\u0009 \u0009\u0009 Grant of License.\u0009 Subject to the terms and conditions of this Agreement, Samsung hereby grants to you, and you accept, a limited, personal, nonexclusive, nontransferable and revocable license to use the Service only as authorized in this Agreement.\u0009 Your access to the Service is licensed, not sold.\u0009\u0009 All references to the Service includes all related content, such as videos, text, graphics, user interfaces, scripts and software used to implement and provide access to the Service, and any updates, upgrades, enhancements, modifications, revisions or additions to the Service made available to end users by Samsung. However, Samsung is under no obligation to provide any updates, upgrades, enhancements, modifications, revisions or additions to the Service.
+
+ 1.2\u0009 \u0009\u0009 Restrictions.
+
+ (i)\u0009 You may not reverse engineer, copy, decompile, disassemble, derive the source code of, modify, adapt, capture, reproduce, publicly display, publicly perform, transfer, sell, license, create derivative works from or based upon, republish, upload, edit, post, transmit, distribute, broadcast exploit, circumvent or otherwise translate (or encourage or assist any other person to do any of the foregoing) the Service or its content in whole or in part.\u0009 You may not transmit, distribute, or broadcast any content included or accessible from the Service without our prior written consent unless we make the content available for distribution through a function on our Service, such as a social media plugin.
+
+ (ii)\u0009 You may not use the Service for any purpose that is unlawful or prohibited by this Agreement.\u0009 You are specifically prohibited from using the Service to share, publish or otherwise include content that (a) violates any third party’s rights, including privacy and intellectual property rights; (b) is obscene, abusive, threatening, defamatory, violent, illegal, hateful, discriminatory, racist, sexist, or otherwise objectionable (as determined in our sole discretion) or in non-conformance with Samsung’s content or use guidelines; or (c) contains viruses or other harmful software, code or other means that impact or limit the Service or the devices running the Service.
+
+ (iii)\u0009 You may not interfere or attempt to interfere with the operation or use of the Service by others in any way through any means or device, including but not limited to spamming, hacking, uploading computer viruses or time bombs, or any other means.\u0009 You may not, using the Service, collect or harvest personal information, including but not limited to account names and contact information.\u0009 You may not impersonate or pretend to be anyone else but you, including without limitation, by creating fraudulent or spoof accounts, or using someone else’s image without their consent.
+
+ (iv)\u0009 You may not use any robot, spider, script, or any manual or automated program or other means to extract, download, index, create multiple accounts, frame, enclose, mine, scrape, reproduce, or circumvent the presentation, operation, or intended use of any feature, function, or part of the Service.
+
+ (v)\u0009 You may not use the Service to make any unsolicited offers, request, advertisements, or spam.
+
+ (vi) If the Service permits you to post pictures, you may not submit, share, or post pictures that are (a) not yours or pictures that you do not otherwise have the right to post (i.e., pictures that you find on the Internet or photos of or including another individual who has not consented to you posting it); (b) pornographic, nude, partially nude or sexually suggestive pictures; (c) pictures depicting illegal conduct or activities; or (d) pictures that include any person other than yourself unless you have secured all necessary rights and licenses to do so, and in no circumstance, submit a picture including any other person under 13 years of age.
+
+ (vii)\u0009 If the Service allows you to submit reviews, you may not submit any fake or fabricated reviews.\u0009 Any reviews by you will be genuine and will represent your own personal experiences.\u0009 You warrant that you have not been offered any payment or other incentive to write a review.
+
+ 2. INTELLECTUAL PROPERTY, LICENSES
+
+ 2.1\u0009 \u0009 Ownership.\u0009 You acknowledge that the Service is proprietary to Samsung and its licensors, and protected under applicable copyright, patent, trademark and trade secret laws.\u0009 You further acknowledge and agree that, as between you and Samsung, Samsung owns and shall continue to own all right, title and interest in and to the Service, including associated intellectual property rights under the above referenced applicable laws.\u0009 This Agreement does not grant you any ownership interest in or to the Service, but only a limited license to use that is revocable in accordance with the terms of this Agreement. Notwithstanding the foregoing, if the Service provides you with the ability to post or submit content, we do not claim ownership of any content that you post or submit on the Service.\u0009 You represent and warrant that you have secured (and are able to produce proof in writing) of any and all rights necessary and appropriate to submit the content on the Service, including all necessary releases.\u0009 You do however grant us a perpetual, worldwide, unrestricted, non-exclusive, royalty-free, transferable license to use the content that you post or submit on the Service.
+
+ 2.2\u0009 \u0009 Right To Modify, Suspend or Discontinue Service.\u0009 Samsung reserves the right to change the Service without notice.\u0009 Without limiting the generality of the foregoing, and notwithstanding any other provision of this Agreement, Samsung and its licensors reserve the right to modify, suspend, remove or disable your access to the Service or content, or discontinue the Service, in whole or in part, at any time without notice for any reason, and in no event shall Samsung be liable for any claims, costs or damages caused by or arising out of such actions.
+
+ 2.3\u0009 \u0009 Right to Monitor.\u0009 We may, but have no obligation to monitor your use of the Service, your accounts, content, and communications that we determine in our sole discretion violates this Agreement. We reserve the right, but have no obligation, to monitor or become involved in disputes between you and other users.
+
+ 2.4\u0009 \u0009 Third Party Materials.\u0009 The Service includes software or other materials developed by third parties such as our video content licensors.
+
+ 3. USE; CONTENT; INFORMATION
+
+ 3.1\u0009 \u0009\u0009 Use.\u0009 Use of the Service will require your devices to have access or connection via mobile network or Internet (fees may apply), and may require you to obtain updates or upgrades from time to time.\u0009 Because use of the Service involves hardware, software, and Internet access, your ability to use the Service may be affected by the reliability and performance of such system requirements.\u0009 You acknowledge and agree that such system requirements, which may be changed from time to time, are your responsibility.\u0009 You also acknowledge that the Service will not be available in all countries or on all devices, and may be subject to restrictions imposed by your network carrier or Internet provider.
+
+ •\u0009 \u0009 Third Party Services.\u0009 Use of the Service may include or link to services provided by a third party service provider (“Third Party Services”).\u0009 Your use of Third Party Services shall be solely between you and the third party, and subject to the applicable terms and conditions from such third party.\u0009 Samsung hereby disclaims all responsibility and liability for your use of Third Party Services, including but not limited to the reliability or the performance of Third Party Services.
+
+ •\u0009 \u0009 Objectionable Content. You understand that by using the Service, you (or other users who access the Service under your account) may encounter content that may be offensive, indecent, explicit, adult-oriented, or objectionable. You agree to use the Service at your sole risk and that Samsung shall have no liability to you for content that may be offensive, indecent, explicit, adult-oriented, or objectionable.
+
+ •\u0009 \u0009 Your Account. If registration information is required, you agree to provide accurate, current and complete information required to register with the Service and/or at any other time as may be required in the course of using the Service.\u0009 You further agree to maintain and update your registration information as required to keep it accurate, current and complete.\u0009 Without in any way limiting or abrogating the Privacy Policy, you agree that Samsung may store and use the registration information you provide for use in maintaining your account and providing the Service.\u0009 You are solely responsible for any activity that occurs on your account, for providing and maintaining accurate registration information and for maintaining the confidentiality of your password.\u0009 If there has been an unauthorized use of your password or account, please notify us immediately.
+
+ •\u0009 \u0009 Voice and Video Communications.\u0009 We may make voice and video communication available to you as part of the Service, subject to your network carrier’s restrictions as may be applicable.\u0009 Such additional voice and/or video communication functionalities do not purport to be a replacement for your ordinary mobile or fixed-line telephone services.\u0009 In particular, you acknowledge and agree that such voice and/or video communication functionalities do not allow you to make emergency calls to any emergency services.
+
+ •\u0009 \u0009 Infringing Content.\u0009 It is our policy to respond to notices of alleged copyright infringement, in compliance with the Digital Millennium Copyright Act (“DMCA”) and other applicable laws.\u0009 If you are a copyright owner or an agent thereof and believe that any posting or other content on the Service infringes upon your copyrights, you may submit a notification pursuant to the DMCA by providing our Copyright Agent with the following information in writing:
+
+ •\u0009 \u0009 A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;
+
+ •\u0009 \u0009 Identification of the copyrighted work claimed to have been infringed;
+
+ •\u0009 \u0009 Identification of the material that is claimed to be infringing and information reasonably sufficient to permit us to locate the material;
+
+ •\u0009 \u0009 Information reasonably sufficient to permit us to contact you, such as an address, telephone number, and email address;
+
+ •\u0009 \u0009 A statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or the law; and
+
+ •\u0009 \u0009 A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.
+
+ Please do not send notices or inquiries about anything other than alleged intellectual property infringement to our Copyright Agent, who may be contacted as follows:Steve Merlis, Senior Counsel - Federal Affairs Samsung Telecommunications America, LLC 1200 New Hampshire Ave., N.W. Suite 500 Washington, DC, 20036 Telephone: 202-552-7595 Email: copyrightagent@sta.samsung.com
+
+ •\u0009 \u0009 No Endorsement of Content.\u0009 We do not endorse, promote, support, verify, or monitor any content submitted to the Service, or any opinion, recommendation, action, or advice provided in such content.\u0009 We reserve the right to remove content without prior notice and for any reason in our sole discretion.
+
+ 4. TERM; TERMINATION
+
+ 4.1\u0009 \u0009 Effective Date.\u0009 This Agreement is effective upon your acceptance of the Agreement, or upon your downloading, accessing or otherwise using the Service.\u0009 The Service has no predetermined termination date and may continue until such time as Samsung decides to terminate the Service or when this Agreement is terminated consistent with the terms herein.
+
+ 4.2\u0009 \u0009 Termination by Samsung.\u0009 If you fail, or Samsung reasonably suspects that you have failed to comply with any of the provisions of this Agreement, without limiting Samsung’s other rights and remedies, all of which are expressly reserved, at its sole discretion and without notice to you, Samsung may immediately discontinue your access to the Service and terminate this Agreement.
+
+ 5. INDEMNIFICATION
+
+ You will indemnify, release and hold harmless Samsung, its parent, subsidiaries and affiliates, and all officers, directors, agents and employees thereof, and any party acting on Samsung’s behalf, from and against any and all third party claims, actions, liabilities, losses, damages, judgments, costs and expenses, including reasonable attorneys’ fees (collectively, “Claims”) arising out of (i) any use of the Service by you or by any person that you allow to use the Service that is not in accordance to the terms of this Agreement, (ii) any breach of this Agreement by you or by any person that you allow to use the Service or (iii) any violation of any laws, regulations or the rights of any third party by you or by any person that you allow to use the Service.
+
+ 6. DISCLAIMER
+
+ 6.1\u0009 \u0009 Disclaimer of Warranties.\u0009 THE SERVICE IS PROVIDED “AS IS”, “WHERE IS” AND “AS AVAILABLE” AND WITHOUT WARRANTIES OF ANY KIND.\u0009 SAMSUNG AND ITS LICENSORS MAKE NO REPRESENTATIONS OR WARRANTIES OR GUARANTEES OF ANY KIND OR NATURE, WHETHER EXPRESS OR IMPLIED, REGARDING THE SERVICE, AND SPECIFICALLY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+ WITHOUT LIMITING THE PREVIOUS DISCLAIMER, SAMSUNG AND ITS LICENSORS DO NOT REPRESENT, WARRANT OR GUARANTEE THAT THE SERVICE OR THE CONTENT THEREIN WILL (i) OPERATE IN AN UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE MANNER, (ii) WILL ALWAYS BE AVAILABLE OR FREE FROM ALL HARMFUL COMPONENTS OR ERRORS (iii) WILL BE SECURE OR IMMUNE (INCLUDING THE CONTENT DELIVERED TO YOU OR THE INFORMATION YOU PROVIDED) FROM UNAUTHORIZED ACCESS OR (iv) WILL BE ACCURATE, COMPLETE, OR RELIABLE, THAT THE QUALIFY OF THE SERVICE WILL BE SATISFACTORY TO YOU, OR THAT ERRORS WILL BE CORRECTED.
+
+ 6.2\u0009 \u0009 Disclaimer of Certain Damages.\u0009 TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT SHALL SAMSUNG OR ITS LICENSOR BE LIABLE TO YOU FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, PUNITIVE DAMAGES OR LOST PROFITS, EVEN IF SAMSUNG HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\u0009 THIS LIMITATION WILL APPLY REGARDLESS OF THE THEORY OF LIABILITY, WHETHER FRAUD, MISREPRESENTATION, BREACH OF CONTRACT, NEGLIGENCE, PERSONAL INJURY, PRODUCT LIABILITY, INFRINGEMENT OR ANY OTHER THEORY REGARDLESS OF WHETHER OR NOT SAMSUNG HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\u0009 THIS MEANS THAT YOU HEREBY WAIVE ANY AND ALL RIGHTS TO ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, EXEMPLARY, PUNITIVE DAMAGES OR LOST PROFITS FROM SAMSUNG AND ITS LICENSORS.\u0009 THIS LIMITATION AND WAIVER ALSO APPLIES TO ANY CLAIMS YOU MAY BRING AGAINST ANY OTHER PARTY TO THE EXTENT THAT SAMSUNG WOULD BE REQUIRED TO INDEMNIFY THAT PARTY FOR SUCH CLAIM. WE SHALL NOT BE LIABLE FOR ANY LOSS OF DATA, BREACH OF SECURITY ASSOCIATED WITH THE SERVICE, OR FOR ANY CONTENT, VIDEO OR COMMUNICATIONS ON THE SERVICE, OR OTHERWISE ARISING OUT OF THE USE OF THE SAME, REGARDLESS OF THE FORM OF ACTION OR BASIS OF ANY CLAIM. SHOULD YOU CHOOSE TO COMMUNICATE OR MEET DIRECTLY WITH OTHER USERS OF THE SERVICE, WE ARE NOT RESPONSIBLE FOR THOSE COMMUNICATIONS OR ANY MEETINGS THAT MAY TAKE PLACE BETWEEN YOU AND OTHER USERS.\u0009 IF YOU HAVE A DISPUTE WITH US OR ARE DISSATISFIED WITH THE SERVICE, TERMINATION OF YOUR USE OF THE SERVICE IS YOUR SOLE REMEDY.\u0009 WE HAVE NO OTHER OBLIGATION, LIABILITY, OR RESPONSIBILITY TO YOU.
+
+ 7.\u0009 \u0009\u0009 PRIVACY
+
+ Samsung is committed to the protection of your privacy, including the information you share on the Service.\u0009 You agree and acknowledge that you may be asked to provide certain personal information, such as your telephone number, user name, profile photos, and other personally identifiable information when you use the Service.\u0009 The Privacy Policy governs how Samsung collects and uses your information and information relating to your use of the Service.\u0009 Samsung may update the Privacy Policy from time to time, so please periodically review the Privacy Policy.
+
+ 8. GENERAL TERMS
+
+ 8.1\u0009 \u0009 Choice of Law.\u0009 This Agreement, including all revisions and amendments thereto, is governed by and construed in accordance with the laws of California, without regard to its conflict or choice of law principles.
+
+ 8.2\u0009 \u0009 Arbitration.\u0009 By using the Service, you unconditionally consent and agree that: (i) any claim, dispute or controversy (whether in contract, tort, or otherwise) you may have against any Samsung entity, the officers, directors, agents and employees of any Samsung entity (the “Samsung Entity(ies)”) arising out of, relating to, or connected in any way with the Service or the determination of the scope or applicability of this clause, will be resolved exclusively by final and binding arbitration administered by JAMS and conducted before a sole arbitrator in accordance with the rules of JAMS; (ii) this clause is made pursuant to a transaction involving interstate commerce, and shall be governed by the Federal Arbitration Act (“FAA”), 9 U.S.C. §§ 1-16; (iii) the arbitration shall be held in San Jose, California; (iv) the arbitrator’s decision shall be controlled by the terms and conditions of this Agreement and any other agreements referenced herein that you have agreed to in connection with the Service; (v) the arbitrator shall apply California law consistent with the FAA and applicable statutes of limitations, and shall honor claims of privilege recognized at law; (vi) there shall be no authority for any claims to be arbitrated on a class or representative basis, arbitration can decide only your and/or the applicable Samsung Entity’s individual claims; the arbitrator may not consolidate or join the claims of other persons or parties who may be similarly situated; and you will not file or participate in a class action against us; (vii) the arbitrator shall not have the power to award punitive damages against you or any Samsung Entity; (viii) in the event that the administrative fees and deposits that must be paid to initiate arbitration against any Samsung Entity exceed One Hundred Twenty-Five US Dollars (US$125), and you are unable (or not required under the rules of JAMS) to pay any fees and deposits that exceed this amount, Samsung agrees to pay them and/or forward them on your behalf, subject to ultimate allocation by the arbitrator.\u0009 In addition, if you are able to demonstrate that the costs of arbitration will be prohibitive as compared to the costs of litigation, Samsung will pay as much of your filing and hearing fees in connection with the arbitration as the arbitrator deems necessary to prevent the arbitration from being cost prohibitive; and (ix) with the exception of subsection (vi) above, if any part of this arbitration provision is deemed invalid, unenforceable or illegal, or otherwise conflicts with the rules of JAMS, the balance of this arbitration provision shall remain in effect and shall be construed in accordance with its terms as if the invalid, unenforceable, illegal or conflicting provision were not contained herein.\u0009 If, however, subsection (vi) above is found to be invalid, unenforceable or illegal, the entirety of this arbitration provision shall be null and void, and neither you nor Samsung shall be entitled to arbitrate the dispute.\u0009 For more information on JAMS and/or the rules of JAMS, visit their website at www.jamsadr.com.
+
+ 8.3\u0009 \u0009 Severability.\u0009 If any term or provision of this Agreement is held to be void or unenforceable by any judicial or administrative authority, such determination shall not affect the validity of enforceability of the remaining terms and provisions of this Agreement.\u0009 The remaining provisions of this Agreement shall remain in effect and shall be construed in accordance with its terms.
+
+ 8.4\u0009 \u0009 Survival. Sections 1.2, 2, 5, 6 and 8 of this Agreement, and any other provision that by its nature should continue to be in effect, shall survive the expiration or earlier termination of this Agreement, and shall remain valid and binding.
+
+ 8.5\u0009 \u0009 Headings.\u0009 The headings contained in this Agreement are for reference purposes only and shall not affect the meaning or interpretation of this Agreement.
+
+ 8.6\u0009 \u0009 No Waiver.\u0009 The failure of Samsung to enforce at any time any of the provisions of this Agreement, or the failure by Samsung to require at any time performance by you of any of the provisions of this Agreement, shall in no way be construed to be a present or future waiver of such provisions, nor in any way affect the right of Samsung to enforce such provision thereafter.\u0009 The express waiver by Samsung of any provision, condition or requirement of this Agreement shall not constitute a waiver of any future obligation to comply with such provision, condition or requirement.
+
+ 8.7\u0009 \u0009 Third Party Sites.\u0009 We may offer links or other materials on the Service which allow you to browse or be redirected to a third party’s website, such as a social networking platform.\u0009 We are not associated with, endorsing, or responsible for the services, websites, or content of these third parties.\u0009 If you have any questions about these other companies’ practices, you should review their terms of use and other policies.
+
+"</string>
+    <string name="copyright_and_licenses_text">"Milk Video 3RD PARTY SOFTWARE
+ 
+ Milk Video includes or is distributed together with the following third party software:
+ 
+ Items 1-13 below are licensed under the Apache License, Version 2.0 (the License): you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ 
+ The full text of the Apache License, Version 2.0 is reproduced below in Appendix A.
+ 
+ 1. Retrofit v1.6.1
+ Copyright 2013 Square, Inc.
+ 
+ 2. Okhttp v2.0.0
+ Copyright 2014 Square, Inc.
+ 
+ 3. Okhttp-url connection. v2.0.0
+ Copyright 2014 Square, Inc.
+ 
+ 4. Roboguice v2.0
+ 
+ Copyright 2009-2013 roboguice committers
+ 
+ 5. converter-jackson v1.2.2
+ Copyright 2013 Square, Inc.
+ Converter-jackson is offered under one of two OSS licenses: Apache License v. 2.0 and LGPL 2.1. Samsung Telecommunications America, LLC has selected to obtain converter-jackson under the Apache License v. 2.0.
+ \u0009• Jackson-core v2.4.0
+ 
+ Jackson-core is offered under one of two OSS licenses: Apache License v. 2.0 and LGPL 2.1. Samsung Telecommunications America, LLC has selected to obtain Jackson-core under the Apache License v. 2.0.
+ 
+ 7. Otto v1.3.5
+ Copyright 2013 Square, Inc.
+ 
+ 8. Picasso v2.3.3
+ Copyright 2013 Square, Inc.
+ 
+ 10. calligraphy v1.2.0
+ 
+ Copyright 2013 Christopher Jenkins
+ 
+ 11. timber v2.4.1
+ 
+ Copyright © Jake Wharton 2013. All Rights Reserved.
+ 
+ 12. com.nineoldandroids v2.4.0
+ 
+ Copyright © Jake Wharton 2013. All Rights Reserved.
+ 
+ 13. jsr305 v3.0.0
+ 
+ jsr305 is licensed under the New BSD License (BSD 3-clause) license, a copy of which is reproduced below in Appendix A.
+ 
+ 
+ Appendix A – Full License Texts
+ 
+ 1. New BSD License (BSD 3-Clause License)
+ Copyright (c) &lt;YEAR>, &lt;OWNER> All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ 
+ 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ 
+ 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ 
+ 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS IS AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
+ 
+ 2. Apache Software License, version 2.0
+ Apache License
+ Version 2.0, January 2004
+ http://www.apache.org/licenses/
+ 
+ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ 
+ 1. Definitions.
+ 
+ License shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+ 
+ Licensor shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+ 
+ Legal Entity shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, control means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+ 
+ You (or Your) shall mean an individual or Legal Entity exercising permissions granted by this License.
+ 
+ Source form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
+ 
+ Object form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+ 
+ Work shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
+ 
+ Derivative Works shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
+ 
+ Contribution shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, submitted means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as Not a Contribution.
+ 
+ Contributor shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
+ 
+ 2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+ 
+ 3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
+ 
+ 4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
+ 
+ (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and
+ 
+ (b) You must cause any modified files to carry prominent notices stating that You changed the files; and
+ 
+ (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+ 
+ (d) If the Work includes a NOTICE text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
+ 
+ You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
+ 
+ 5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
+ 
+ 6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
+ 
+ 7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+ 
+ 8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
+ 
+ 9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+ 
+ END OF TERMS AND CONDITIONS
+ 
+ APPENDIX: How to apply the Apache License to your work.
+ 
+ To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets [] replaced with your own identifying information. (Don't include the brackets!) The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same printed page as the copyright notice for easier identification within third-party archives.
+ 
+ Copyright [yyyy] [name of copyright owner]
+ 
+ Licensed under the Apache License, Version 2.0 (the License); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an AS IS BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License."</string>
+    <string name="retry">RETRY</string>
+    <string name="error_unable_to_retrieve_feed">Unable to connect.</string>
+    <string name="error_try_again">TRY AGAIN</string>
+    <string name="signout_confirmation_title">Log out</string>
+    <string name="signout_confirmation_body">You will no longer be able to repost, favorite, share videos or follow users.</string>
+    <string name="signout_cancel_text">CANCEL</string>
+    <string name="signout_error_try_again">Failed to log out. Try again!</string>
+    <string name="notification_connection_lost">No Internet Connection.</string>
+    <string name="notification_timeout_error">Unable to connect. Please try again later.</string>
+    <string name="notification_generic_error">An error occurred. Please try again.</string>
+    <string name="notification_generic_success">Success!</string>
+    <string name="notification_profile_save_success">Profile saved successfully!</string>
+    <string name="notification_profile_save_failure">Failed to save profile. Please try again.</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_blurb">"Tap to follow channels and
+see their posts in your feed"</string>
+    <string name="welcome_fb_blurb">"Tap to follow friends using Milk Video
+and see their reposts in your feed"</string>
+    <string name="welcome_done">DONE</string>
+    <string name="application_name">Milk Video</string>
+    <string name="dismiss_action_logged_in">HIDE THIS VIDEO</string>
+    <string name="dismiss_action_logged_out">"SIGN IN TO
+HIDE THIS VIDEO"</string>
+    <string name="edit_profile_cancel_popup">"You have unsaved changes.
+Are you sure you wish to discard?"</string>
+    <string name="nux_start">Start</string>
+    <string name="post_nux_following_milk_message">You are now following Milk Video</string>
+    <string name="support_url">http://support.milkvid.com</string>
+    <string name="video_unavailable">This video is no longer available.</string>
+    <string name="helvetica_bold">fonts/helv-bd.otf</string>
+    <string name="helvetica_light">fonts/helv-lt.otf</string>
+    <string name="helvetica_roman">fonts/helv-roman.otf</string>
+    <string name="helvetica_medium">fonts/helv-md.otf</string>
+</resources>

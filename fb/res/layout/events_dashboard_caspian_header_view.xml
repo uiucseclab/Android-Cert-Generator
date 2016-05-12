@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.facebook.events.dashboard.EventsDashboardFilterTextView android:gravity="center" android:id="@id/filter_1" android:paddingLeft="@dimen/events_dashboard_header_padding_horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.TabbedViewPagerIndicatorChild.Caspian" />
+        <com.facebook.events.dashboard.EventsDashboardFilterTextView android:gravity="center" android:id="@id/filter_2" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.TabbedViewPagerIndicatorChild.Caspian" />
+        <com.facebook.events.dashboard.EventsDashboardFilterTextView android:gravity="center" android:id="@id/filter_3" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.TabbedViewPagerIndicatorChild.Caspian" />
+        <com.facebook.events.dashboard.EventsDashboardFilterTextView android:gravity="center" android:id="@id/filter_4" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.TabbedViewPagerIndicatorChild.Caspian" />
+        <com.facebook.events.dashboard.EventsDashboardFilterTextView android:gravity="center" android:id="@id/filter_5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.TabbedViewPagerIndicatorChild.Caspian" />
+    </LinearLayout>
+</merge>

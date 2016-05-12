@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/swipe_image_page_indicator_pending_background" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:fadeDuration="0" fb:placeholderImage="@color/fbui_bluegrey_40" fb:failureImage="@color/fbui_bluegrey_40" fb:actualImageScaleType="centerCrop" fb:overlayImage="@color/swipe_image_page_indicator_background_overlay" />
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/swipe_image_page_indicator_background" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:fadeDuration="0" fb:placeholderImage="@color/fbui_bluegrey_40" fb:failureImage="@color/fbui_bluegrey_40" fb:actualImageScaleType="centerCrop" fb:overlayImage="@color/swipe_image_page_indicator_background_overlay" />
+    <com.facebook.redspace.pagerindicator.TouchablePagerContainer android:layout_gravity="bottom|center" android:id="@id/swipe_image_page_indicator_pager_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.CustomViewPager android:layout_gravity="center_horizontal" android:id="@id/swipe_image_page_indicator_horizontal_pager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/swipe_image_page_indicator_slider_width" android:layout_height="@dimen/swipe_image_page_indicator_slider_height" />
+    </com.facebook.redspace.pagerindicator.TouchablePagerContainer>
+</merge>

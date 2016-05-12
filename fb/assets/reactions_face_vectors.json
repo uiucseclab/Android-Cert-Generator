@@ -1,0 +1,1263 @@
+{
+  "name": "reactions_faces",
+  "canvas_size": [
+    "320",
+    "320"
+  ],
+  "vector_count":"8",
+  "states": [
+    {
+      "name": "like",
+      "xWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "yWave": {
+        "period": "1000",
+        "range0": "4",
+        "range1": "-4"
+      },
+      "rotWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "-10",
+          "toControlX": "-5",
+          "toControlY": "-10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "10",
+          "toControlX": "-5",
+          "toControlY": "10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-42",
+          "offsetY": "-55",
+          "fromX": "8",
+          "fromY": "-1",
+          "toX": "-8",
+          "toY": "2",
+          "fromControlX": "2",
+          "fromControlY": "-2",
+          "toControlX": "-2",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-5",
+          "fromY": "0",
+          "toX": "5",
+          "toY": "0",
+          "fromControlX": "-5",
+          "fromControlY": "-10",
+          "toControlX": "5",
+          "toControlY": "-10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-5",
+          "fromY": "0",
+          "toX": "5",
+          "toY": "0",
+          "fromControlX": "-5",
+          "fromControlY": "10",
+          "toControlX": "5",
+          "toControlY": "10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "42",
+          "offsetY": "-55",
+          "fromX": "-8",
+          "fromY": "-1",
+          "toX": "8",
+          "toY": "2",
+          "fromControlX": "-2",
+          "fromControlY": "-2",
+          "toControlX": "2",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "29",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "15",
+          "toControlX": "10",
+          "toControlY": "15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "29",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "15",
+          "toControlX": "10",
+          "toControlY": "15",
+          "paints": [
+            "stroke"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "love",
+      "xWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "yWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "rotWave": {
+        "period": "0",
+        "range0": "20",
+        "range1": "20"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "4",
+          "fromY": "15",
+          "toX": "-4",
+          "toY": "-5",
+          "fromControlX": "22",
+          "fromControlY": "-31",
+          "toControlX": "-15",
+          "toControlY": "-15",
+          "paints": [
+            "stroke-red",
+            "fill-red"
+          ],
+          "animation": "THROB"
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "4",
+          "fromY": "15",
+          "toX": "-4",
+          "toY": "-5",
+          "fromControlX": "-35",
+          "fromControlY": "5",
+          "toControlX": "-20",
+          "toControlY": "-20",
+          "paints": [
+            "stroke-red",
+            "fill-red"
+          ],
+          "animation": "THROB"
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-48",
+          "offsetY": "-65",
+          "fromX": "12",
+          "fromY": "-6",
+          "toX": "-12",
+          "toY": "6",
+          "fromControlX": "0",
+          "fromControlY": "-2",
+          "toControlX": "0",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-4",
+          "fromY": "15",
+          "toX": "4",
+          "toY": "-5",
+          "fromControlX": "-22",
+          "fromControlY": "-31",
+          "toControlX": "15",
+          "toControlY": "-15",
+          "paints": [
+            "stroke-red",
+            "fill-red"
+          ],
+          "animation": "THROB"
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-4",
+          "fromY": "15",
+          "toX": "4",
+          "toY": "-5",
+          "fromControlX": "35",
+          "fromControlY": "5",
+          "toControlX": "20",
+          "toControlY": "-20",
+          "paints": [
+            "stroke-red",
+            "fill-red"
+          ],
+          "animation": "THROB"
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "48",
+          "offsetY": "-65",
+          "fromX": "-12",
+          "fromY": "-6",
+          "toX": "12",
+          "toY": "6",
+          "fromControlX": "0",
+          "fromControlY": "-2",
+          "toControlX": "0",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "29",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "15",
+          "toControlX": "10",
+          "toControlY": "15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "29",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "15",
+          "toControlX": "10",
+          "toControlY": "15",
+          "paints": [
+            "stroke"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "wow",
+      "xWave": {
+        "period": "1000",
+        "range0": "20",
+        "range1": "-20"
+      },
+      "yWave": {
+        "period": "0",
+        "range0": "10",
+        "range1": "10"
+      },
+      "rotWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "-20",
+          "toControlX": "-5",
+          "toControlY": "-20",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "20",
+          "toControlX": "-5",
+          "toControlY": "20",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-42",
+          "offsetY": "-75",
+          "fromX": "10",
+          "fromY": "-3",
+          "toX": "-10",
+          "toY": "3",
+          "fromControlX": "4",
+          "fromControlY": "-4",
+          "toControlX": "-4",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-5",
+          "fromY": "0",
+          "toX": "5",
+          "toY": "0",
+          "fromControlX": "-5",
+          "fromControlY": "-20",
+          "toControlX": "5",
+          "toControlY": "-20",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-5",
+          "fromY": "0",
+          "toX": "5",
+          "toY": "0",
+          "fromControlX": "-5",
+          "fromControlY": "20",
+          "toControlX": "5",
+          "toControlY": "20",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "42",
+          "offsetY": "-75",
+          "fromX": "-10",
+          "fromY": "-3",
+          "toX": "10",
+          "toY": "3",
+          "fromControlX": "-4",
+          "fromControlY": "-4",
+          "toControlX": "4",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "35",
+          "fromX": "-13",
+          "fromY": "0",
+          "toX": "13",
+          "toY": "0",
+          "fromControlX": "-13",
+          "fromControlY": "-26",
+          "toControlX": "13",
+          "toControlY": "-26",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "35",
+          "fromX": "-13",
+          "fromY": "0",
+          "toX": "13",
+          "toY": "0",
+          "fromControlX": "-13",
+          "fromControlY": "26",
+          "toControlX": "13",
+          "toControlY": "26",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "haha",
+      "xWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "yWave": {
+        "period": "200",
+        "range0": "-28",
+        "range1": "-32"
+      },
+      "rotWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "15",
+          "fromY": "0",
+          "toX": "-15",
+          "toY": "-6",
+          "fromControlX": "0",
+          "fromControlY": "-4",
+          "toControlX": "0",
+          "toControlY": "-4",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "15",
+          "fromY": "0",
+          "toX": "-15",
+          "toY": "6",
+          "fromControlX": "10",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-52",
+          "offsetY": "-75",
+          "fromX": "10",
+          "fromY": "-4",
+          "toX": "-12",
+          "toY": "4",
+          "fromControlX": "4",
+          "fromControlY": "-4",
+          "toControlX": "-4",
+          "toControlY": "-4",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-15",
+          "fromY": "0",
+          "toX": "15",
+          "toY": "-6",
+          "fromControlX": "0",
+          "fromControlY": "-4",
+          "toControlX": "0",
+          "toControlY": "-4",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-15",
+          "fromY": "0",
+          "toX": "15",
+          "toY": "6",
+          "fromControlX": "-10",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "52",
+          "offsetY": "-75",
+          "fromX": "-10",
+          "fromY": "-4",
+          "toX": "12",
+          "toY": "4",
+          "fromControlX": "-4",
+          "fromControlY": "-4",
+          "toControlX": "4",
+          "toControlY": "-4",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "17",
+          "fromX": "-40",
+          "fromY": "0",
+          "toX": "40",
+          "toY": "0",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "17",
+          "fromX": "-40",
+          "fromY": "0",
+          "toX": "40",
+          "toY": "0",
+          "fromControlX": "-30",
+          "fromControlY": "50",
+          "toControlX": "30",
+          "toControlY": "50",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "yay",
+      "xWave": {
+        "period": "1000",
+        "range0": "-10",
+        "range1": "10"
+      },
+      "yWave": {
+        "period": "500",
+        "range0": "-30",
+        "range1": "-10",
+        "type": "1"
+      },
+      "rotWave": {
+        "period": "1000",
+        "range0": "-8",
+        "range1": "8"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-19",
+          "fromX": "10",
+          "fromY": "0",
+          "toX": "-10",
+          "toY": "0",
+          "fromControlX": "10",
+          "fromControlY": "-15",
+          "toControlX": "-10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-19",
+          "fromX": "10",
+          "fromY": "0",
+          "toX": "-10",
+          "toY": "0",
+          "fromControlX": "10",
+          "fromControlY": "-15",
+          "toControlX": "-10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-42",
+          "offsetY": "-55",
+          "fromX": "8",
+          "fromY": "-2",
+          "toX": "-8",
+          "toY": "2",
+          "fromControlX": "2",
+          "fromControlY": "-2",
+          "toControlX": "-2",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-19",
+          "fromX": "-10",
+          "fromY": "0",
+          "toX": "10",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "-15",
+          "toControlX": "10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-19",
+          "fromX": "-10",
+          "fromY": "0",
+          "toX": "10",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "-15",
+          "toControlX": "10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "42",
+          "offsetY": "-55",
+          "fromX": "-8",
+          "fromY": "-2",
+          "toX": "8",
+          "toY": "2",
+          "fromControlX": "-2",
+          "fromControlY": "-2",
+          "toControlX": "2",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "23",
+          "fromX": "-30",
+          "fromY": "0",
+          "toX": "30",
+          "toY": "0",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "23",
+          "fromX": "-30",
+          "fromY": "0",
+          "toX": "30",
+          "toY": "0",
+          "fromControlX": "-20",
+          "fromControlY": "30",
+          "toControlX": "20",
+          "toControlY": "30",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ouch",
+      "xWave": {
+        "period": "150",
+        "range0": "-10.5",
+        "range1": "-9.5"
+      },
+      "yWave": {
+        "period": "0",
+        "range0": "-20",
+        "range1": "-20"
+      },
+      "rotWave": {
+        "period": "150",
+        "range0": "-20.5",
+        "range1": "-19.5"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "-10",
+          "toControlX": "-5",
+          "toControlY": "-10",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "10",
+          "toControlX": "-5",
+          "toControlY": "10",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-46",
+          "offsetY": "-85",
+          "fromX": "8",
+          "fromY": "-4",
+          "toX": "-8",
+          "toY": "4",
+          "fromControlX": "2",
+          "fromControlY": "-3",
+          "toControlX": "-2",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-15",
+          "fromY": "0",
+          "toX": "15",
+          "toY": "-6",
+          "fromControlX": "0",
+          "fromControlY": "-4",
+          "toControlX": "0",
+          "toControlY": "-4",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-15",
+          "fromY": "0",
+          "toX": "15",
+          "toY": "6",
+          "fromControlX": "-10",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "46",
+          "offsetY": "-85",
+          "fromX": "-8",
+          "fromY": "-4",
+          "toX": "8",
+          "toY": "4",
+          "fromControlX": "-2",
+          "fromControlY": "-3",
+          "toControlX": "2",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "35",
+          "fromX": "-15",
+          "fromY": "0",
+          "toX": "15",
+          "toY": "0",
+          "fromControlX": "-15",
+          "fromControlY": "-20",
+          "toControlX": "15",
+          "toControlY": "-20",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "35",
+          "fromX": "-15",
+          "fromY": "0",
+          "toX": "15",
+          "toY": "0",
+          "fromControlX": "-15",
+          "fromControlY": "20",
+          "toControlX": "15",
+          "toControlY": "20",
+          "paints": [
+            "stroke",
+            "fill"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sorry",
+      "xWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "yWave": {
+        "period": "0",
+        "range0": "15",
+        "range1": "15"
+      },
+      "rotWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "-10",
+          "toControlX": "-5",
+          "toControlY": "-10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "5",
+          "fromY": "0",
+          "toX": "-5",
+          "toY": "0",
+          "fromControlX": "5",
+          "fromControlY": "10",
+          "toControlX": "-5",
+          "toControlY": "10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-45",
+          "offsetY": "-45",
+          "fromX": "12",
+          "fromY": "-6",
+          "toX": "-12",
+          "toY": "6",
+          "fromControlX": "2",
+          "fromControlY": "-4",
+          "toControlX": "-4",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-5",
+          "fromY": "0",
+          "toX": "5",
+          "toY": "0",
+          "fromControlX": "-5",
+          "fromControlY": "-10",
+          "toControlX": "5",
+          "toControlY": "-10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-5",
+          "fromY": "0",
+          "toX": "5",
+          "toY": "0",
+          "fromControlX": "-5",
+          "fromControlY": "10",
+          "toControlX": "5",
+          "toControlY": "10",
+          "paints": [
+            "stroke",
+            "fill"
+          ],
+          "animation": "BLINK"
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "45",
+          "offsetY": "-45",
+          "fromX": "-12",
+          "fromY": "-6",
+          "toX": "12",
+          "toY": "6",
+          "fromControlX": "-2",
+          "fromControlY": "-4",
+          "toControlX": "4",
+          "toControlY": "-2",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "41",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "-15",
+          "toControlX": "10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "41",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "-15",
+          "toControlX": "10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cancel",
+      "xWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "yWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "rotWave": {
+        "period": "0",
+        "range0": "0",
+        "range1": "0"
+      },
+      "vectors": [
+        {
+          "name": "left_eye_1",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "10",
+          "fromY": "10",
+          "toX": "-10",
+          "toY": "-10",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "left_eye_2",
+          "offsetX": "-40",
+          "offsetY": "-25",
+          "fromX": "-10",
+          "fromY": "10",
+          "toX": "10",
+          "toY": "-10",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "left_eyebrow",
+          "offsetX": "-42",
+          "offsetY": "-60",
+          "fromX": "12",
+          "fromY": "-4",
+          "toX": "-12",
+          "toY": "4",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_1",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "-10",
+          "fromY": "10",
+          "toX": "10",
+          "toY": "-10",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eye_2",
+          "offsetX": "40",
+          "offsetY": "-25",
+          "fromX": "10",
+          "fromY": "10",
+          "toX": "-10",
+          "toY": "-10",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "right_eyebrow",
+          "offsetX": "42",
+          "offsetY": "-60",
+          "fromX": "-12",
+          "fromY": "-4",
+          "toX": "12",
+          "toY": "4",
+          "fromControlX": "0",
+          "fromControlY": "0",
+          "toControlX": "0",
+          "toControlY": "0",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_1",
+          "offsetX": "0",
+          "offsetY": "41",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "-15",
+          "toControlX": "10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        },
+        {
+          "name": "mouth_2",
+          "offsetX": "0",
+          "offsetY": "41",
+          "fromX": "-20",
+          "fromY": "0",
+          "toX": "20",
+          "toY": "0",
+          "fromControlX": "-10",
+          "fromControlY": "-15",
+          "toControlX": "10",
+          "toControlY": "-15",
+          "paints": [
+            "stroke"
+          ]
+        }
+      ]
+    }
+  ],
+  "paint_map": {
+    "stroke": {
+      "style": "STROKE",
+      "cap": "ROUND",
+      "color": "#FF232937",
+      "width": "6"
+    },
+    "fill": {
+      "style": "FILL",
+      "cap": "ROUND",
+      "color": "#FF232937",
+      "width": "6"
+    },
+    "stroke-red": {
+      "style": "STROKE",
+      "cap": "ROUND",
+      "color": "#FFED1C24",
+      "width": "6"
+    },
+    "fill-red": {
+      "style": "FILL",
+      "cap": "ROUND",
+      "color": "#FFED1C24",
+      "width": "6"
+    }
+  }
+}
