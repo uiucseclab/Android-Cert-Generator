@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/photo_reminder_title_bar_stub" android:layout="@layout/photo_reminder_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/photo_reminder_title_bar_height" />
+    <FrameLayout android:id="@id/photo_tray_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/photo_tray_margin_bottom">
+        <com.facebook.feed.photoreminder.PhotoReminderScrollView android:id="@id/photo_tray" android:paddingLeft="@dimen/photo_reminder_scroll_view_left_right_padding" android:paddingTop="0.0dip" android:paddingRight="@dimen/photo_reminder_scroll_view_left_right_padding" android:paddingBottom="0.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ViewStub android:id="@id/photo_reminder_done_stub" android:layout="@layout/photo_reminder_done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/photo_tray_layout" />
+    <ViewStub android:id="@id/photo_reminder_nux_stub" android:background="@drawable/phototray_nux" android:layout="@layout/photo_reminder_nux" android:inflatedId="@id/photo_reminder_nux" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

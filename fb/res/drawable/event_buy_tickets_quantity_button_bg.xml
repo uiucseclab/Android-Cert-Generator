@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/fbui_btn_light_special_bg_pressed" />
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/fbui_accent_blue" />
+        </shape>
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/fbui_btn_light_regular_bg_pressed" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="1.0dip" android:color="@color/fbui_grey_30" />
+        </shape>
+    </item>
+</selector>

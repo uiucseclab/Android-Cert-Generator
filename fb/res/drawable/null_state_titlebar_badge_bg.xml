@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/fbui_white" />
+    <corners android:radius="@dimen/null_state_titlebar_corner_radius" />
+    <padding android:left="@dimen/null_state_titlebar_side_padding" android:top="@dimen/null_state_titlebar_vertical_padding" android:right="@dimen/null_state_titlebar_side_padding" android:bottom="@dimen/null_state_titlebar_vertical_padding" />
+</shape>

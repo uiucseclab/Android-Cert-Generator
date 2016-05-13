@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/tutorial_nux_view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.facebook.widget.viewpageindicator.CirclePageIndicator android:id="@id/view_page_indicator" android:background="@color/fbui_white" android:padding="@dimen/fbui_padding_half_standard" android:layout_width="fill_parent" android:layout_height="wrap_content" uib:fillColor="@color/fbui_bluegrey_50" uib:strokeColor="@color/fbui_bluegrey_30" uib:radius="4.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/awareness_tutorial_nux_buttons" />
+</LinearLayout>

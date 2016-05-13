@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.widget.refreshableview.RefreshableListViewContainer android:orientation="vertical" android:id="@id/place_picker_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.refreshableview.RefreshableViewOverflowItem android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.widget.refreshableview.RefreshableViewItem android:id="@id/refresh" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.facebook.widget.listview.BetterListView android:id="@id/place_picker_list_view_ptr" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#ffffffff" android:divider="@drawable/fbui_list_divider" android:choiceMode="multipleChoice" />
+</com.facebook.widget.refreshableview.RefreshableListViewContainer>

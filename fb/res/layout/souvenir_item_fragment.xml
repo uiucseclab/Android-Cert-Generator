@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.widget.ExpandingFixedAspectRatioFrameLayout android:layout_gravity="center" android:id="@id/aspect_ratio_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center|right|top" android:id="@id/remove_item_icon" android:paddingTop="@dimen/souvenirs_remove_button_padding" android:paddingRight="@dimen/souvenirs_remove_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/souvenir_remove_photo" />
+    </com.facebook.widget.ExpandingFixedAspectRatioFrameLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/contact_picker_section_top_action_row_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="22.0dip" android:layout_centerVertical="true" />
+    <View android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="?attr/contactPickerItemDividerStyle" />
+    <com.facebook.widget.text.BetterTextView android:ellipsize="end" android:gravity="center|left" android:id="@id/contact_picker_section_top_action_row_text" android:layout_width="wrap_content" android:layout_height="?contactPickerRowHeight" android:layout_marginRight="16.0dip" android:maxLines="2" android:layout_toRightOf="@id/contact_picker_section_top_action_row_icon" android:layout_centerVertical="true" style="?attr/contactPickerItemNameStyle" />
+</merge>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="simplepicker_title_bar_height">48.0dip</dimen>
+    <dimen name="simplepicker_progress_bar_height">3.0dip</dimen>
+    <dimen name="simplepicker_progress_bar_margin_top">45.0dip</dimen>
+    <dimen name="simplepicker_done_button_padding">20.0dip</dimen>
+    <dimen name="simplepicker_divider_height">33.0dip</dimen>
+    <dimen name="simplepicker_divider_width">1.0dip</dimen>
+    <dimen name="simplepicker_thumbnail_size">150.0dip</dimen>
+    <dimen name="simplegallery_bottom_bar_height">60.0dip</dimen>
+    <item type="dimen" name="camera_roll_text_size">@dimen/fbui_text_size_xlarge</item>
+    <item type="dimen" name="done_button_text_size">@dimen/fbui_text_size_medium</item>
+    <dimen name="popover_dialog_width">520.0dip</dimen>
+    <item type="dimen" name="popover_dialog_height">79.99999%</item>
+    <dimen name="mr_media_route_controller_art_max_height">480.0dip</dimen>
+</resources>

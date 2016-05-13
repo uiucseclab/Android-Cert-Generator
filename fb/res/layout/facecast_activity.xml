@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:id="@id/view_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.facecast.FacecastPreviewView android:id="@id/facecast_preview_view" android:background="@color/fbui_grey_80" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/preview_status" android:layout_alignLeft="@id/facecast_preview_view" android:layout_alignTop="@id/facecast_preview_view" android:layout_alignRight="@id/facecast_preview_view" android:layout_alignBottom="@id/facecast_preview_view" android:layout_alignStart="@id/facecast_preview_view" android:layout_alignEnd="@id/facecast_preview_view" />
+    <com.facebook.resources.ui.FbButton android:id="@id/mLiveStreamStartStopButton" android:paddingBottom="@dimen/button_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/start_stop_text" android:layout_alignParentBottom="true" />
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

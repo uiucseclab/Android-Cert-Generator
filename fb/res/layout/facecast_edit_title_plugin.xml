@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/facecast_standard_padding" android:layout_alignLeft="@id/facecast_preview_view" android:layout_alignTop="@id/facecast_preview_view" android:layout_alignRight="@id/facecast_preview_view" android:layout_alignBottom="@id/facecast_preview_view" android:layout_marginStart="@dimen/facecast_standard_padding" android:layout_alignStart="@id/facecast_preview_view" android:layout_alignEnd="@id/facecast_preview_view">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.facebook.user.tiles.UserTileView android:id="@id/facecast_edit_title_avater" android:layout_width="@dimen/facecast_title_avatar_size" android:layout_height="@dimen/facecast_title_avatar_size" fb:asCircle="true" />
+            <com.facebook.widget.text.BetterTextView android:layout_gravity="center_vertical" android:id="@id/facecast_edit_title_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/facecast_standard_padding" android:layout_marginStart="@dimen/facecast_standard_padding" style="@style/facecast_title_text_username" />
+        </LinearLayout>
+        <com.facebook.widget.text.BetterEditTextView android:id="@id/facecast_edit_title_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/facecast_standard_padding" android:layout_marginRight="@dimen/facecast_title_description_margin_right" android:layout_marginEnd="@dimen/facecast_title_description_margin_right" style="@style/facecast_title_text_description" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

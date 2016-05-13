@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/ozone_teal_size" android:paddingRight="@dimen/ozone_teal_size" android:paddingBottom="@dimen/ozone_teal_size" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.glyph.GlyphView android:id="@id/header_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" fb:glyphColor="@color/complete_checkmark_color" />
+    <com.facebook.resources.ui.FbTextView android:textAppearance="@style/TextAppearance.FBUi.XLarge" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/header_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ozone_dialog_padding_small" android:singleLine="true" android:layout_marginStart="@dimen/ozone_dialog_padding_small" />
+</LinearLayout>

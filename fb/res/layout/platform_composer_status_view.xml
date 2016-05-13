@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/platform_composer_common_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="start|center|top" android:id="@id/profile_image" android:layout_width="@dimen/platform_composer_profile_image_size" android:layout_height="@dimen/platform_composer_profile_image_size" android:layout_marginRight="@dimen/platform_composer_common_padding" android:layout_marginEnd="@dimen/platform_composer_common_padding" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" />
+        <com.facebook.platform.targetpicker.composer.PlatformComposerEditText android:textColor="@android:color/black" android:textColorHint="?android:textColorTertiary" android:gravity="start|center" android:layout_gravity="start" android:id="@id/status_text" android:background="@android:color/transparent" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/stream_share_hint" android:completionThreshold="1" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone">
+            <requestFocus />
+        </com.facebook.platform.targetpicker.composer.PlatformComposerEditText>
+    </LinearLayout>
+    <FrameLayout android:id="@id/composer_preview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/underwood_attachments" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/linear_composer_add_photo_button" android:layout="@layout/linear_composer_add_photo_button_layout" android:inflatedId="@id/linear_composer_add_photo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/linear_composer_add_photo_button_margin_top" />
+</merge>

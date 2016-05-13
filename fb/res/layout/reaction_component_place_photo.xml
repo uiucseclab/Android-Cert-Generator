@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComponentLayout xmlns:components="http://schemas.android.com/apk/res-auto">
+    <ComponentLayout components:flex_id="@id/background" components:flex_positionType="absolute" components:flex_left="0.0dip" components:flex_top="0.0dip" components:flex_right="0.0dip" components:flex_bottom="0.0dip" />
+    <Image components:flex_id="@id/gradient" components:flex_positionType="absolute" components:flex_left="0.0dip" components:flex_top="0.0dip" components:flex_right="0.0dip" components:flex_bottom="0.0dip" components:cpn_drawable="@drawable/reaction_cover_photo_gradient" />
+    <ComponentLayout components:flex_direction="column" components:flex_justifyContent="spaceBetween" components:flex_alignItems="stretch" components:flex_grow="1.0" components:flex_padding="@dimen/reaction_padding_large">
+        <ComponentLayout components:flex_id="@id/facepile" components:flex_height="@dimen/reaction_facepile_profile_pic_size" components:fbcpn_faceSize="@dimen/reaction_fb_facepile_face_size" components:fbcpn_faceSpacing="@dimen/reaction_fb_facepile_face_spacing" components:fbcpn_faceCount="@integer/reaction_fb_facepile_face_count" />
+        <ComponentLayout components:flex_id="@id/footer" components:flex_direction="row" components:flex_alignItems="center">
+            <ComponentLayout components:flex_id="@id/category_icon" components:flex_width="20.0dip" components:flex_height="20.0dip" components:flex_marginRight="@dimen/reaction_padding_medium" />
+            <ComponentLayout components:flex_direction="column" components:flex_grow="1.0">
+                <Text components:flex_id="@id/title" components:flex_grow="1.0" components:cpn_textColor="@color/fbui_text_inverse_light" components:cpn_textSize="@dimen/fbui_text_size_medium" components:cpn_textStyle="bold" />
+                <Text components:flex_id="@id/subtitle" components:flex_grow="1.0" components:cpn_textColor="@color/fbui_text_inverse_light" components:cpn_textSize="@dimen/fbui_text_size_small" components:cpn_textStyle="italic" />
+            </ComponentLayout>
+        </ComponentLayout>
+    </ComponentLayout>
+</ComponentLayout>

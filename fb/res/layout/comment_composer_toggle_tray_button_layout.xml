@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.feedback.ui.CommentComposerTrayToggleButton android:id="@id/comment_composer_tray_toggle_button" android:padding="@dimen/comment_composer_tray_toggle_button_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/comment_composer_tray_toggle_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

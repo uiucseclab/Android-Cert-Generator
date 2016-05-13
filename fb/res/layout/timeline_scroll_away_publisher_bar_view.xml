@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.fbui.widget.text.GlyphWithTextView android:id="@id/status" android:text="@string/timeline_actionbar_update_status" fb:drawable="@drawable/fbui_compose_s" style="@style/TimelineScrollAwayPublisherBarButtonStyle" />
+    <com.facebook.fbui.widget.text.GlyphWithTextView android:id="@id/photo" android:text="@string/feed_publisher_photo" fb:drawable="@drawable/fbui_camera_s" style="@style/TimelineScrollAwayPublisherBarButtonStyle" />
+    <com.facebook.fbui.widget.text.GlyphWithTextView android:id="@id/life_event" android:text="@string/timeline_actionbar_add_life_event" fb:drawable="@drawable/fbui_flag_s" style="@style/TimelineScrollAwayPublisherBarButtonStyle" />
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="beginning" fb:dividerPadding="@dimen/photo_reminder_done_divider_padding_left_right" fb:dividerThickness="@dimen/photo_reminder_done_divider_thickness"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/photo_reminder_done_text_size" android:textColor="@color/photo_reminder_done_disabled" android:gravity="center" android:layout_gravity="bottom" android:id="@id/photo_reminder_done_button" android:layout_width="fill_parent" android:layout_height="@dimen/photo_reminder_done_height" android:text="@string/photo_reminder_done" />
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

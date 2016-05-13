@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="multi_post_singleplayer_text_post_char_count">
+        <item>50</item>
+        <item>90</item>
+        <item>140</item>
+        <item>180</item>
+        <item>210</item>
+    </integer-array>
+    <integer-array name="multi_post_singleplayer_text_line_count">
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="multi_post_multiplayer_text_post_char_count">
+        <item>50</item>
+        <item>90</item>
+        <item>140</item>
+        <item>180</item>
+        <item>210</item>
+    </integer-array>
+    <integer-array name="multi_post_multiplayer_text_line_count">
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+</resources>

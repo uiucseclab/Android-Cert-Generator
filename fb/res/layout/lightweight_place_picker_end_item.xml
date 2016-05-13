@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.text.GlyphWithTextView android:text="@string/lightweight_place_picker_more_places" fb:glyphColor="@color/fbui_grey_40" fb:drawable="@drawable/fbui_pin_s" style="@style/LightweightPlacePickerItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

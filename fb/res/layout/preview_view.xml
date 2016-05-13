@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.backstage.ui.MediaView android:id="@id/media_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.resources.ui.FbEditText android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center|top" android:id="@id/caption_input" android:background="@android:color/transparent" android:paddingTop="@dimen/backstage_preview_caption_margin_top" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/backstage_preview_caption_margin" android:scrollHorizontally="false" android:inputType="textMultiLine" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/preview_control_box" android:background="@drawable/inverted_dark_fade_gradient" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/backstage_preview_bottom_control_bar_height">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/reshoot_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/fbui_trash_l" android:scaleType="center" android:layout_weight="1.0" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/save_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/fbui_book_l" android:scaleType="center" android:layout_weight="1.0" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/message_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/draft_l" android:scaleType="center" android:layout_weight="1.0" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/share_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/fbui_send_l" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

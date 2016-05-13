@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_horizontal" android:id="@id/reaction_invite_friend_to_page_friend_image" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:padding="@dimen/fbui_padding_standard" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.widget.text.BetterTextView android:layout_gravity="center_vertical" android:id="@id/reaction_invite_friend_to_page_friend_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Pages.TextAppearance.Dark" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/reaction_invite_friend_to_page_button" android:background="@drawable/light_border" android:padding="@dimen/fbui_padding_half_standard" android:layout_width="@dimen/fbui_image_button_size_small" android:layout_height="@dimen/fbui_image_button_size_small" android:src="@drawable/fbui_plus_l" android:scaleType="fitXY" fb:glyphColor="@color/fbui_bluegrey_20" />
+    </com.facebook.widget.CustomLinearLayout>
+</merge>

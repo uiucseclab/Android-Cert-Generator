@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/platform_composer_footer_glyph_active" />
+    <item android:color="@color/platform_composer_footer_glyph_active" android:state_activated="true" />
+    <item android:color="@color/platform_composer_footer_glyph_default" />
+</selector>

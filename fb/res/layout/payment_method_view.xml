@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/payment_method_view_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <RadioButton android:layout_gravity="center" android:id="@id/radio_button" android:paddingRight="@dimen/payment_add_method_view_horizontal_padding" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Widget.RadioButton.FBUi.Light" />
+    <ImageView android:layout_gravity="center" android:id="@id/payment_method_icon" android:paddingRight="@dimen/payment_add_method_view_horizontal_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.facebook.widget.text.BetterTextView android:textColor="@color/fbui_black" android:id="@id/payment_method_title" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontWeight="medium" />
+        <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_text_light" android:id="@id/payment_method_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:fontWeight="light" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/chevron" android:paddingLeft="@dimen/payment_method_view_right_img_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/arrow_right" />
+    <ImageView android:layout_gravity="center" android:id="@id/three_dots" android:paddingLeft="@dimen/payment_method_view_right_img_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/fbui_3_dots_v_l" />
+</LinearLayout>

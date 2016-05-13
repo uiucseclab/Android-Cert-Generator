@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="thread_view_title_abbreviate_last_active_status_text">true</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="is_tablet_landscape">false</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="canRunEventCalendarSync">false</bool>
+    <bool name="APKTOOL_DUMMY_2">false</bool>
+    <bool name="APKTOOL_DUMMY_6">false</bool>
+    <bool name="APKTOOL_DUMMY_7">false</bool>
+    <bool name="APKTOOL_DUMMY_8">false</bool>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:id="@id/lightweight_place_picker" android:paddingBottom="@dimen/lightweight_place_picker_arrow_height" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/lightweight_place_picker_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

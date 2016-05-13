@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.platform.targetpicker.footer.PlatformComposerFooterView android:orientation="vertical" android:id="@id/footer_view" android:layout_width="fill_parent" android:layout_height="@dimen/platform_composer_common_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/platform_composer_common_padding" android:paddingRight="@dimen/platform_composer_common_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/add_photo_button" android:src="@drawable/camera_dark_grey_l" style="@style/platform_composer_footer_glyph" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/people_tagging_button" android:src="@drawable/composer_people" style="@style/platform_composer_footer_glyph" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/minutiae_button" android:src="@drawable/composer_minutiae" style="@style/platform_composer_footer_glyph" />
+        <com.facebook.fbui.glyph.GlyphView android:id="@id/place_button" android:src="@drawable/composer_place" style="@style/platform_composer_footer_glyph" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/platform_composer_footer_post_button" android:gravity="center_vertical" android:id="@id/button_share" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/post" android:textAllCaps="true" />
+    </LinearLayout>
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textStyle="bold" android:textColor="@color/fbui_white" android:gravity="center" android:id="@id/button_share_big" android:background="@drawable/platform_composer_footer_post_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="0.0dip" android:layout_marginLeft="@dimen/platform_composer_common_padding" android:layout_marginRight="@dimen/platform_composer_common_padding" android:text="@string/post" android:textAllCaps="true" android:layout_marginStart="@dimen/platform_composer_common_padding" android:layout_marginEnd="@dimen/platform_composer_common_padding" />
+</com.facebook.platform.targetpicker.footer.PlatformComposerFooterView>

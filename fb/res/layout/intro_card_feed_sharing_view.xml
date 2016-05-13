@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/feed_sharing_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/timeline_intro_card_horizontal_padding" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/timeline_intro_card_horizontal_padding" android:layout_marginBottom="@dimen/timeline_intro_card_horizontal_padding" android:layout_weight="1.0" android:layout_marginStart="@dimen/timeline_intro_card_horizontal_padding" android:layout_marginEnd="@dimen/timeline_intro_card_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small_medium" android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_intro_card_post_to_news_feed" />
+    <com.facebook.widget.SwitchCompat android:layout_gravity="end|bottom|center" android:id="@id/feed_sharing_toggle_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

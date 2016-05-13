@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/feed_feedback_divider" android:background="@color/feed_feedback_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/one_px" />
+    <com.facebook.resources.ui.FbTextView android:gravity="center" android:id="@id/throwback_promo_action" android:layout_width="fill_parent" android:layout_height="@dimen/throwback_uni_footer_button_height" android:text="@string/throwback_see_more" android:contentDescription="@string/throwback_see_more" style="@style/stacked_ufi_button_text" />
+</LinearLayout>

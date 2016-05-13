@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.text.GlyphWithTextView android:textSize="@dimen/fbui_text_size_xlarge" android:textColor="@color/fbui_accent_blue" android:gravity="center" android:background="@color/fbui_white" android:paddingTop="@dimen/fbui_button_padding_top_large" android:paddingBottom="@dimen/fbui_button_padding_bottom_large" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/souvenirs_add_more" fb:glyphColor="@color/fbui_accent_blue" fb:drawable="@drawable/fbui_photo_add_l"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

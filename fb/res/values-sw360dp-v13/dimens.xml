@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="audience_educator_horizontal_padding">30.0dip</dimen>
+    <dimen name="audience_educator_vertical_padding">22.0dip</dimen>
+    <dimen name="audience_educator_element_vertical_margin">22.0dip</dimen>
+    <dimen name="inline_privacy_survey_dialog_padding">24.0dip</dimen>
+    <dimen name="inline_privacy_survey_dialog_margin">12.0dip</dimen>
+    <dimen name="inline_privacy_survey_greeting_margin">18.0dip</dimen>
+    <dimen name="inline_privacy_survey_question_margin">12.0dip</dimen>
+    <dimen name="inline_privacy_survey_button_margin">4.0dip</dimen>
+    <dimen name="inline_privacy_survey_skip_top_margin">12.0dip</dimen>
+</resources>

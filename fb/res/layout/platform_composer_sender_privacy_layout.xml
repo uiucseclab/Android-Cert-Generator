@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/sender_picture" android:layout_width="@dimen/platform_composer_title_sender_size_large" android:layout_height="@dimen/platform_composer_title_sender_size_large" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/target_picture" />
+    <FrameLayout android:layout_width="@dimen/platform_composer_title_sender_size_small" android:layout_height="@dimen/platform_composer_title_sender_size_small" android:layout_marginLeft="-13.0dip" android:layout_marginTop="-19.0dip" android:layout_toRightOf="@id/sender_picture" android:layout_below="@id/sender_picture" android:layout_marginStart="-13.0dip" android:layout_toEndOf="@id/sender_picture">
+        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/privacy_picture_background" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/privacy_picture" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:glyphColor="#ffcacaca" />
+        <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center" android:id="@id/privacy_picture_public" android:padding="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:glyphColor="#ffcacaca" />
+    </FrameLayout>
+</com.facebook.ui.compat.fbrelativelayout.FbRelativeLayout>

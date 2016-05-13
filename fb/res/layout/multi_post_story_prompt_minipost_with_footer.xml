@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.facebook.multipoststory.composer.minipost.ui.MultiPostStoryComposerMiniPostView android:id="@id/mps_composer_minipost_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/fbui_divider_horizontal" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/composer_status_wrapper_padding" android:layout_marginTop="@dimen/composer_status_wrapper_padding" android:layout_marginRight="@dimen/composer_status_wrapper_padding" />
+    <com.facebook.multipoststory.inlinecomposer.button.MultiPostStoryAddPostView android:id="@id/mps_add_post_footer_view" android:paddingLeft="@dimen/composer_status_wrapper_padding" android:paddingRight="@dimen/composer_status_wrapper_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

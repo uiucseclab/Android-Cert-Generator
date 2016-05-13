@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/scroll_view_thumbnail" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" fb:placeholderImageScaleType="center" fb:actualImageScaleType="centerCrop" />
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/scroll_view_thumbnail_selected_stub" android:layout="@layout/scroll_view_multi_select" android:inflatedId="@id/scroll_view_thumbnail_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/photo_reminder_selected_margin_end" android:layout_marginBottom="@dimen/photo_reminder_selected_margin_bottom" android:layout_alignRight="@id/scroll_view_thumbnail" android:layout_alignBottom="@id/scroll_view_thumbnail" android:layout_marginEnd="@dimen/photo_reminder_selected_margin_end" android:layout_alignEnd="@id/scroll_view_thumbnail" />
+</merge>

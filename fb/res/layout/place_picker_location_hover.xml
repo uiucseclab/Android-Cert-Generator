@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="end" fb:divider="@color/fbui_bluegrey_10" fb:dividerThickness="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
+    <com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:background="@color/fbui_bluegrey_2" android:paddingLeft="@dimen/place_picker_secondary_bar_side_padding" android:paddingRight="@dimen/place_picker_secondary_bar_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium_large" android:gravity="center_vertical" android:id="@id/at_label" android:padding="@dimen/fbui_padding_text" android:layout_width="wrap_content" android:layout_height="@dimen/place_picker_secondary_bar_height" android:text="@string/places_location_at_label" />
+        <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium_large" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/location_hover_name" android:paddingTop="@dimen/fbui_padding_text" android:paddingBottom="@dimen/fbui_padding_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center|right" android:id="@id/location_x" android:background="@color/transparent" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/places_checkin_clear_search" />
+    </com.facebook.widget.CustomLinearLayout>
+</com.facebook.fbui.widget.layout.SegmentedLinearLayout>

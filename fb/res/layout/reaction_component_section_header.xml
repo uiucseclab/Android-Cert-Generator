@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComponentLayout components:flex_id="@id/message" components:flex_direction="row" components:flex_alignItems="center" components:flex_grow="1.0" components:flex_paddingTop="@dimen/reaction_padding_xlarge" components:flex_paddingBottom="0.0dip" components:flex_paddingStart="?reactionCardRightLeftPadding" components:flex_paddingEnd="?reactionCardRightLeftPadding" xmlns:components="http://schemas.android.com/apk/res-auto" />

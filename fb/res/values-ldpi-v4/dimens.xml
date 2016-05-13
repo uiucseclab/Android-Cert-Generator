@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_width">1.0px</dimen>
+    <dimen name="list_view_divider_height">1.0px</dimen>
+    <dimen name="dp_or_px">1.0px</dimen>
+    <item type="dimen" name="orca_reg_text_size_small">@dimen/fbui_text_size_medium</item>
+    <item type="dimen" name="feed_substory_feedback_border_width">@dimen/one_px</item>
+    <item type="dimen" name="gallery_text_size">@dimen/fbui_text_size_medium</item>
+    <dimen name="orca_reg_side_margin">16.0dip</dimen>
+    <dimen name="orca_null_title_lower_margin">12.0dip</dimen>
+    <dimen name="orca_null_side_margin">16.0dip</dimen>
+    <dimen name="orca_null_intercontent_margin">14.0dip</dimen>
+    <dimen name="emoji_attachments_drawer_row_height">42.0dip</dimen>
+</resources>

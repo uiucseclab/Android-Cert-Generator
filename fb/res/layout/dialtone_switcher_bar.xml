@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialtone_switcher_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dialtone_switcher_banner" android:paddingLeft="@dimen/dialtone_switcher_left_padding" android:layout_width="fill_parent" android:layout_height="@dimen/dialtone_switcher_top_banner_height">
+        <ViewStub android:id="@id/dialtone_switcher_toggle_button_stub" android:visibility="gone" android:layout="@layout/dialtone_switcher_toggle_button" android:inflatedId="@id/switcher_toggle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/dialtone_switcher_segment_bar_stub" android:visibility="gone" android:layout="@layout/dialtone_switcher_segment_button" android:inflatedId="@id/switcher_segment" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:id="@id/dialtone_switcher_info_banner_stub" android:visibility="gone" android:layout="@layout/dialtone_switcher_info_banner" android:inflatedId="@id/switcher_info_banner" android:layout_width="fill_parent" android:layout_height="@dimen/dialtone_switcher_info_banner_height" />
+    <com.facebook.resources.ui.FbTextView android:background="@color/lightswitch_black" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

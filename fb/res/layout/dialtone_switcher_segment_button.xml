@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:textSize="12.0sp" android:gravity="center" android:id="@id/segment_left_button" android:background="@drawable/dialtone_switch_segment_left_button" android:layout_width="100.0dip" android:layout_height="24.0sp" android:textOn="@null" android:textOff="@null" android:text="@null" />
+    <ToggleButton android:textSize="12.0sp" android:gravity="center" android:id="@id/segment_right_button" android:background="@drawable/dialtone_switch_segment_right_button" android:layout_width="100.0dip" android:layout_height="24.0sp" android:textOn="@null" android:textOff="@null" android:text="@null" />
+</LinearLayout>
