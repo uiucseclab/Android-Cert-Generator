@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.payments.ui.SecurityFooterView android:id="@id/security_footer" android:paddingLeft="@dimen/payment_add_method_view_horizontal_padding" android:paddingTop="@dimen/payment_add_method_text_view_vertical_padding" android:paddingRight="@dimen/payment_add_method_view_horizontal_padding" android:paddingBottom="@dimen/payment_add_method_text_view_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

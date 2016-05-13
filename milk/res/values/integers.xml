@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="google_play_services_version">5089000</integer>
-    <integer name="swipe_right_anim_duration">800</integer>
-    <integer name="fast_fade_out_anim_duration">800</integer>
-</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
-    <item android:drawable="@drawable/validation_edit_text_success_background" app:state_success="true" app:state_failure="false" />
-    <item android:drawable="@drawable/validation_edit_text_default_background" app:state_success="false" app:state_failure="false" />
-    <item android:drawable="@drawable/validation_edit_text_error_background" app:state_success="false" app:state_failure="true" />
-</selector>

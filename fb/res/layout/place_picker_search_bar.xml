@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.widget.CustomLinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/place_picker_secondary_bar_side_padding" android:paddingRight="@dimen/place_picker_secondary_bar_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.resources.ui.FbEditText android:textSize="@dimen/fbui_text_size_medium" android:id="@id/checkin_search_bar_view" android:background="@null" android:padding="@dimen/fbui_padding_text" android:layout_width="0.0dip" android:layout_height="@dimen/place_picker_secondary_bar_height" android:singleLine="true" android:drawableLeft="@drawable/search" android:drawablePadding="@dimen/fbui_padding_text" android:layout_weight="1.0" android:imeOptions="actionDone" android:drawableStart="@drawable/search" />
-    <ImageButton android:layout_gravity="center|right" android:id="@id/clear_search_text" android:background="@color/transparent" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/places_checkin_clear_search" android:contentDescription="@string/places_clear_search_text" />
-</com.facebook.widget.CustomLinearLayout>

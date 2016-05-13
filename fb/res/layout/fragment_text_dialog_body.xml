@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.resources.ui.FbTextView android:textSize="@dimen/ozone_dialog_description_font_size" android:textColor="?android:textColorPrimary" android:id="@id/completion_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/server_error_dialog_body"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

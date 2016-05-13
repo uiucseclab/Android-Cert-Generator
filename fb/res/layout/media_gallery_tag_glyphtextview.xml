@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.widget.text.GlyphWithTextView android:textSize="@dimen/fbui_text_size_small_medium" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/media_gallery_footer_tagging_glyph_with_text" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag_text" fbui:drawable="@drawable/fbui_tag_l"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fbui="http://schemas.android.com/apk/res-auto" />

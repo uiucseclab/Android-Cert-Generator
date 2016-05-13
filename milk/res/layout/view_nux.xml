@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v4.view.ViewPager android:id="@id/nux_pages" android:background="@color/cod_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
-    <ImageView android:id="@id/nux_dots" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:src="@drawable/nux_dots_1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
-</merge>

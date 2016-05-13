@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.widget.text.BetterTextView android:textColor="@color/payment_action_blue" android:id="@id/payment_bubble_see_card_action_text" android:text="@string/theme_bubble_see_card_action_text" style="@style/PaymentBubbleInlineBannerActionButton"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

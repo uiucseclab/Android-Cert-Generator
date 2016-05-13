@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xxlarge" android:textColor="@color/fbui_black" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/content_summary" android:layout_width="@dimen/throwback_campaign_content_summary_text_width" android:layout_height="wrap_content" fb:fontFamily="roboto" fb:fontWeight="light" />
-</LinearLayout>

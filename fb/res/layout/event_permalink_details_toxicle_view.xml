@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.events.permalink.about.DetailsTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_text_dark" android:id="@id/event_permalink_details_view_text" android:paddingLeft="@dimen/event_permalink_details_row_padding_h" android:paddingTop="@dimen/event_permalink_details_row_padding_v" android:paddingRight="@dimen/event_permalink_details_row_padding_h" android:paddingBottom="@dimen/event_permalink_details_row_padding_v" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</merge>

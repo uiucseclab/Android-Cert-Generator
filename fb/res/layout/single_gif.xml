@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center" android:id="@id/check_gif" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/gif_layout_height" android:contentDescription="@string/gif_accessibility_label" />
-    <ProgressBar android:layout_gravity="center" android:id="@id/gif_loading_progress_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/gif_progress_indicator_size" android:maxHeight="@dimen/gif_progress_indicator_size" android:minWidth="@dimen/gif_progress_indicator_size" android:minHeight="@dimen/gif_progress_indicator_size" style="@style/FbProgressCircular" />
-</FrameLayout>

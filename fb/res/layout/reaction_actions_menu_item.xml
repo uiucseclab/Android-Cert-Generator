@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.widget.contentview.ContentView android:gravity="center_vertical" android:background="@drawable/fbui_clickable_list_item_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/fbui_popover_list_item_view_height" fb:titleTextAppearance="@style/TextAppearance.Caspian.Large" fb:subtitleTextAppearance="@style/TextAppearance.Caspian.Content" fb:thumbnailGravity="center" fb:titleMaxLines="1" fb:subtitleMaxLines="2" fb:thumbnailSize="xsmall" fb:maxLinesFromThumbnailSize="false" style="@style/Widget.ContentView.Caspian"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/sc_la_background" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
-    <ImageView android:layout_gravity="bottom|center" android:id="@id/sc_la_phone" android:layout_width="30.0dip" android:layout_height="39.0dip" android:src="@drawable/loginalert_phone" />
-    <ImageView android:layout_gravity="center" android:id="@id/sc_la_shield" android:layout_width="16.0dip" android:layout_height="19.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/loginalert_shield" />
-</merge>

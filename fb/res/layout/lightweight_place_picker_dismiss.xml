@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.glyph.GlyphView android:gravity="center_vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/lightweight_place_picker_margin_edge" android:src="@drawable/fbui_cross_l" android:layout_marginEnd="@dimen/lightweight_place_picker_margin_edge" fb:glyphColor="@color/lightweight_place_picker_background_item_color"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

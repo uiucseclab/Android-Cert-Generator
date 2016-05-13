@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.widget.contentview.ContentView android:layout_width="fill_parent" android:layout_height="fill_parent" uib:thumbnailPadding="@dimen/keyword_search_title_drawable_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:uib="http://schemas.android.com/apk/res-auto">
-    <com.facebook.widget.text.BetterTextView android:textAppearance="@style/SearchCaspianHeader.Accent" android:id="@id/badge_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" uib:layout_useAsAuxView="true" />
-</com.facebook.fbui.widget.contentview.ContentView>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.feedback.reactions.ui.PillsBlingBarView android:id="@id/mps_bling_bar" android:paddingLeft="@dimen/feed_bling_bar_padding" android:paddingRight="@dimen/feed_bling_bar_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

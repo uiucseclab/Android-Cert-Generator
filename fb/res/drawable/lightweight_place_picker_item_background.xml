@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<inset android:insetTop="@dimen/lightweight_place_picker_item_background_inset" android:insetBottom="@dimen/lightweight_place_picker_item_background_inset"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <shape android:shape="rectangle">
-        <corners android:radius="@dimen/lightweight_place_picker_item_background_corner" />
-        <solid android:color="@color/lightweight_place_picker_background_item_color" />
-    </shape>
-</inset>

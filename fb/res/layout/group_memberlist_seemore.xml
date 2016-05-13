@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.widget.text.BetterTextView android:id="@id/group_memberlist_seemore_textview" android:layout_width="fill_parent" android:layout_height="@dimen/member_list_sticky_header_height" android:text="@string/member_list_see_more" style="@style/groups_sticky_header" />
-    <ProgressBar android:gravity="center" android:id="@id/group_memberlist_seemore_progress" android:paddingLeft="@dimen/groups_content_h_padding" android:paddingRight="@dimen/groups_content_h_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/member_list_see_more_margin" style="@android:style/Widget.ProgressBar.Small.Inverse" />
-</merge>

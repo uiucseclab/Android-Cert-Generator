@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<HorizontalScrollView android:id="@id/picker_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/richdocument_block"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/picker_items_container" android:layout_width="wrap_content" android:layout_height="40.0dip" />
-</HorizontalScrollView>

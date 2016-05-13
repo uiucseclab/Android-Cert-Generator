@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:layout_gravity="center" android:id="@id/halo" android:layout_width="@dimen/facepile_background_size" android:layout_height="@dimen/facepile_background_size" android:src="@drawable/avatar_facepile_background" />
-        <ImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="@dimen/facepile_item_size" android:layout_height="@dimen/facepile_item_size" />
-    </FrameLayout>
-</merge>

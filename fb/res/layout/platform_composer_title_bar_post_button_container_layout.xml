@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/post_button_container" android:layout_width="wrap_content" android:layout_height="@dimen/platform_composer_common_bar_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="@drawable/title_bar_divider_gradient" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textStyle="bold" android:textColor="@color/harrison_button_composer" android:gravity="center" android:id="@id/post_button" android:paddingLeft="@dimen/platform_composer_common_padding" android:paddingRight="@dimen/platform_composer_common_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/composer_harrison_right_button_min_width" android:text="@string/composer_title_post" android:textAllCaps="true" />
-</LinearLayout>

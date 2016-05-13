@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.widget.CustomFrameLayout android:background="?reactionCardPrimaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.feed.rows.pager.RowViewPager android:gravity="center_horizontal" android:id="@id/item_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:initializeHeightToFirstItem="true" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_small" android:textColor="@color/fbui_white" android:gravity="center_horizontal" android:layout_gravity="center|right|top" android:id="@id/item_counter" android:background="@drawable/reaction_pager_counter_background" android:paddingTop="@dimen/reaction_padding_medium_large" android:paddingBottom="@dimen/reaction_padding_medium_large" android:layout_width="@dimen/reaction_pager_counter_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reaction_padding_large" />
-</com.facebook.widget.CustomFrameLayout>

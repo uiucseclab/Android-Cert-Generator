@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/user_list_item_user_container" layout="@layout/view_user_list_item" />
-    <ImageView android:id="@id/user_list_item_suggested_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/user_list_item_user_container" />
-    <TextView android:id="@id/user_list_item_suggested_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/user_list_item_suggested_thumbnail" android:layout_below="@id/user_list_item_user_container" />
-    <TextView android:id="@id/user_list_item_suggested_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/user_list_item_suggested_thumbnail" android:layout_below="@id/user_list_item_suggested_title" />
-</RelativeLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.instantshopping.view.widget.ColorPickerTextItemLayout android:gravity="center" android:id="@id/size_text_container" android:background="@drawable/instant_shopping_picker_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/instant_shopping_color_picker_item_margin_right" android:layout_marginEnd="@dimen/instant_shopping_color_picker_item_margin_right"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.richdocument.view.widget.RichTextView android:textSize="@dimen/instant_shopping_default_text_size" android:textColor="@color/fbui_grey_50" android:gravity="center" android:layout_gravity="center" android:id="@id/size_text" android:padding="@dimen/instant_shopping_size_selector_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/save_modal_text_extra_line_spacing" />
-</com.facebook.instantshopping.view.widget.ColorPickerTextItemLayout>

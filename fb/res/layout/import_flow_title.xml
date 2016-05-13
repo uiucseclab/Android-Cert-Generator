@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.fbui.glyph.GlyphButton android:layout_gravity="center" android:id="@id/import_flow_cancel_button" android:background="@android:color/transparent" android:paddingLeft="@dimen/backstage_import_flow_grid_margin" android:paddingRight="@dimen/backstage_import_flow_grid_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_cross_l" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/backstage_title_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/import_flow_title_text" android:layout_width="0.0dip" android:layout_height="@dimen/backstage_title_height" android:text="@string/backstage_title_import_default" android:layout_weight="1.0" />
-    <com.facebook.fbui.glyph.GlyphButton android:layout_gravity="center" android:id="@id/import_flow_upload_button" android:background="@android:color/transparent" android:paddingLeft="@dimen/backstage_import_flow_grid_margin" android:paddingRight="@dimen/backstage_import_flow_grid_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbui_send_l" />
-</merge>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.widget.CustomLinearLayout android:gravity="center_vertical" android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" fb:anchor="center" fb:anchorPosition="center"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/previous_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/previous_36dp" />
-    <com.facebook.video.player.CountdownRingView android:id="@id/countdown_ring" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" fb:crv_stroke_width="2.0dip">
-        <ImageView android:layout_gravity="center" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/replay_48dp" />
-    </com.facebook.video.player.CountdownRingView>
-    <ImageView android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/next_36dp" />
-</com.facebook.widget.CustomLinearLayout>

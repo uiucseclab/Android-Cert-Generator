@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/transparent" />
-    <stroke android:width="@dimen/fundraiser_page_attachment_header_profile_photo_border" android:color="@color/fundraiser_page_attachment_header_profile_photo_border" />
-</shape>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/toast_layout_root" android:background="@drawable/nachos_toast_gradient" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo">
-    <TextView android:textSize="12.0dip" android:textColor="@color/nearly_white" android:gravity="center" android:id="@id/text" android:layout_width="180.0dip" android:layout_height="wrap_content" volt:fontPath="fonts/helv-lt.otf" />
-</FrameLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.fbui.widget.header.SectionHeaderView android:id="@id/temperature_unit_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/today_weather_unit_settings_temperature_label" />
-    <com.facebook.fbui.widget.layout.SegmentedLinearLayout android:orientation="vertical" android:background="@drawable/fbui_clickable_list_item_bg_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:showDividers="middle" fb:dividerPadding="@dimen/reaction_padding_large" fb:divider="@color/reaction_separator" fb:dividerThickness="1.0px">
-        <com.facebook.fbui.widget.contentview.CheckedContentView android:id="@id/temperature_fahrenheit_checkbox" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/fbui_checkbox_light" fb:titleText="@string/fahrenheit" />
-        <com.facebook.fbui.widget.contentview.CheckedContentView android:id="@id/temperature_celsius_checkbox" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/fbui_checkbox_light" fb:titleText="@string/celsius" />
-    </com.facebook.fbui.widget.layout.SegmentedLinearLayout>
-</LinearLayout>

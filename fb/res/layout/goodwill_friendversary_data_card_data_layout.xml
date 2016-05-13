@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/data_point_icon" android:layout_width="@dimen/throwback_feed_unit_friendversary_data_card_icon_size" android:layout_height="@dimen/throwback_feed_unit_friendversary_data_card_icon_size" android:layout_marginLeft="@dimen/throwback_feed_unit_friendversary_data_card_icon_padding_left" android:layout_marginStart="@dimen/throwback_feed_unit_friendversary_data_card_icon_padding_left" />
-    <com.facebook.resources.ui.FbTextView android:gravity="left" android:layout_gravity="left" android:id="@id/data_point_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/throwback_feed_unit_friendversary_data_card_gap_between_text_and_icon" android:layout_marginRight="@dimen/throwback_feed_unit_friendversary_data_card_text_padding_right" android:layout_marginStart="@dimen/throwback_feed_unit_friendversary_data_card_gap_between_text_and_icon" android:layout_marginEnd="@dimen/throwback_feed_unit_friendversary_data_card_text_padding_right" />
-</LinearLayout>

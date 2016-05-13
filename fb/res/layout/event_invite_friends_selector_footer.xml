@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.fbui.glyph.GlyphView android:paddingLeft="@dimen/event_invite_dialog_footer_glyph_left_padding" android:paddingTop="@dimen/event_invite_dialog_footer_glyph_vertical_padding" android:paddingRight="@dimen/event_invite_dialog_footer_glyph_right_padding" android:paddingBottom="@dimen/event_invite_dialog_footer_glyph_vertical_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/fbui_app_messenger_l" fb:glyphColor="@color/fbui_accent_blue" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/events_invite_friends_selector_footer_text" android:layout_weight="1.0" />
-    <com.facebook.widget.SwitchCompat android:gravity="center" android:id="@id/invite_through_messenger_switch" android:paddingLeft="@dimen/event_invite_dialog_footer_glyph_right_padding" android:paddingTop="@dimen/event_invite_dialog_footer_glyph_vertical_padding" android:paddingRight="@dimen/event_invite_dialog_footer_glyph_left_padding" android:paddingBottom="@dimen/event_invite_dialog_footer_glyph_vertical_padding" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checked="false" style="@style/Widget.Switch.Material" />
-</merge>

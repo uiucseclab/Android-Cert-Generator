@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <TextureView android:layout_gravity="center" android:id="@id/video_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="bottom|center|right" android:id="@id/video_volume_button" android:background="@drawable/video_volume_button_background" android:padding="@dimen/gallery_trimmer_volume_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gallery_trimmer_video_preview_sound_button_margin" android:layout_marginBottom="@dimen/gallery_trimmer_video_preview_sound_button_margin" android:src="@drawable/fbui_volume_l" android:scaleType="center" android:layout_above="@id/video_texture_view" android:contentDescription="@string/video_preview_mute_button_description" android:layout_marginEnd="@dimen/gallery_trimmer_video_preview_sound_button_margin" fb:glyphColor="@color/fbui_white" />
-</merge>

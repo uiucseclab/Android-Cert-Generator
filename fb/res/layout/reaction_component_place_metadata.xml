@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ComponentLayout components:flex_direction="column" components:flex_justifyContent="center" components:flex_alignItems="flexStart" components:flex_padding="@dimen/reaction_padding_large" xmlns:components="http://schemas.android.com/apk/res-auto">
-    <Text components:flex_id="@id/place_name" components:cpn_textColor="@color/fbui_text_dark" components:cpn_textSize="@dimen/fbui_text_size_medium" components:cpn_ellipsize="end" components:cpn_singleLine="true" />
-    <Text components:flex_id="@id/place_info_blurb" components:flex_height="32.0sp" components:flex_marginTop="4.0dip" components:cpn_maxLines="2" components:cpn_textColor="@color/fbui_text_light" components:cpn_textSize="@dimen/fbui_text_size_small" components:cpn_spacingMultiplier="1.25" components:cpn_ellipsize="end" />
-</ComponentLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/redspace_overflow_bg" android:layout_width="@dimen/redspace_pog_size" android:layout_height="@dimen/redspace_pog_size"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.widget.tiles.ThreadTileView android:gravity="center_vertical" android:id="@id/tile_view" android:layout_width="@dimen/redspace_pog_size" android:layout_height="@dimen/redspace_pog_size" android:alpha="0.15" fb:asCircle="true" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_xxxlarge_2" android:gravity="center" android:id="@id/redspace_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</FrameLayout>

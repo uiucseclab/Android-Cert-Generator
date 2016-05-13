@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.fbui.widget.text.GlyphWithTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mps_see_full_story_footer_min_height" android:text="@string/multi_post_story_see_full_story_footer_text" style="@style/MultiPostStorySeeFullStoryButton"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

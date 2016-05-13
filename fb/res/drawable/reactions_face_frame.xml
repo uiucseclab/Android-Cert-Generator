@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/reactions_head_shadow" />
-    <item android:drawable="@drawable/reactions_face_color" android:left="30.0dip" android:top="30.0dip" android:right="30.0dip" android:bottom="30.0dip" />
-    <item android:drawable="@drawable/reactions_head_inner_shadow" />
-</layer-list>

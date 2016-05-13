@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.fbui.glyph.GlyphView android:layout_gravity="center|right|top" android:id="@id/souvenir_remove_item" android:paddingTop="@dimen/souvenirs_remove_button_padding" android:paddingRight="@dimen/souvenirs_remove_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/souvenir_remove_photo" />
-</merge>

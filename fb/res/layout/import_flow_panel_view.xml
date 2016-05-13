@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.drawee.view.GenericDraweeView android:id="@id/import_flow_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" />
-    <View android:layout_gravity="center|right|top" android:id="@id/import_flow_badge_view" android:background="@drawable/backstage_badge" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_margin="@dimen/backstage_import_flow_grid_margin" />
-</merge>

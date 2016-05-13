@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PullToRefresh>
-    <LoadingLayouts>
-        <layout name="custom">com.samsung.milk.milkvideo.views.CustomLoadingLayout</layout>
-    </LoadingLayouts>
-</PullToRefresh>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:id="@id/group_purpose_item"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_vertical" android:id="@id/group_purpose_item_pog_view" android:layout_width="@dimen/group_purpose_setting_image_size" android:layout_height="@dimen/group_purpose_setting_image_size" android:layout_marginLeft="@dimen/group_purpose_item_margin" android:layout_marginStart="@dimen/group_purpose_item_margin" fb:placeholderImage="@drawable/no_avatar" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:textColor="@color/fbui_text_dark" android:gravity="center_vertical" android:id="@id/group_purpose_item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/group_purpose_item_margin" android:maxLines="1" android:layout_marginStart="@dimen/group_purpose_item_margin" />
-    <com.facebook.fbui.glyph.GlyphView android:id="@id/group_purpose_item_checkmark" android:layout_width="@dimen/group_purpose_setting_image_size" android:layout_height="@dimen/group_purpose_setting_image_size" android:layout_marginRight="@dimen/group_purpose_item_margin" android:src="@drawable/fbui_checkmark_l" android:layout_marginEnd="@dimen/group_purpose_item_margin" fb:layout_useAsAuxView="true" fb:glyphColor="@color/fbui_accent_blue" />
-</merge>

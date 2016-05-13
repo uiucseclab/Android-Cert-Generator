@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.resources.ui.FbTextView android:textColor="@color/fbui_white" android:gravity="center_vertical" android:id="@id/page_snackbar_text" android:background="@color/fbui_grey_80" android:padding="@dimen/fbui_content_view_horizontal_padding" android:layout_width="fill_parent" android:layout_height="@dimen/page_snackbar_height" style="@style/TextAppearance.FBUi.Medium"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

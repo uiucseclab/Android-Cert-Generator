@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.drawee.fbpipeline.FbDraweeView android:layout_gravity="center_vertical" android:id="@id/inline_sprouts_thumbnail" android:layout_width="@dimen/feed_profile_image_large_size" android:layout_height="@dimen/feed_profile_image_large_size" android:layout_marginLeft="@dimen/fbui_padding_standard" android:layout_marginStart="@dimen/fbui_padding_standard" fb:actualImageScaleType="centerCrop" fb:layout_useAsThumbnail="true" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_large" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/inline_sprouts_text" android:paddingTop="@dimen/fbui_padding_text" android:paddingBottom="@dimen/fbui_padding_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/sprout_header_height" />
-    <ImageView android:id="@id/inline_sprouts_aux" android:paddingLeft="@dimen/fbui_padding_standard" android:paddingRight="@dimen/fbui_padding_standard" android:layout_width="wrap_content" android:layout_height="fill_parent" fb:layout_useAsAuxView="true" />
-</merge>

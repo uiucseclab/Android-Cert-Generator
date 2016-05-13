@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/root_view" android:background="@color/platform_composer_background_color" android:paddingLeft="@dimen/platform_composer_mini_container_padding" android:paddingTop="@dimen/platform_composer_mini_container_padding" android:paddingRight="@dimen/platform_composer_mini_container_padding" android:paddingBottom="@dimen/platform_composer_mini_container_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/composer_container" android:background="@android:drawable/dialog_holo_light_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include layout="@layout/platform_composer_container_layout" />
-    </LinearLayout>
-</FrameLayout>

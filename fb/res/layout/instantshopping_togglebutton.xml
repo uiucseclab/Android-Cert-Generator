@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center" android:id="@id/toggle_button" android:background="@drawable/instant_shopping_save_button" android:paddingLeft="@dimen/instant_shopping_footer_button_padding" android:paddingRight="@dimen/instant_shopping_footer_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/instant_shopping_button_height" style="@style/richdocument_block"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.richdocument.view.widget.RichTextView android:gravity="center" android:layout_gravity="center" android:id="@id/toggle_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/instantshopping_footer_button_style" />
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_accent_blue" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mps_permalink_post_confirmation" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_text_light" android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mps_permalink_go_to_post" />
-</merge>

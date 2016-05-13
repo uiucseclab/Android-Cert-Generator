@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_view_indicator" android:padding="@dimen/group_files_empty_view_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_large" android:gravity="center" android:paddingBottom="@dimen/group_files_empty_view_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/groups_files_empty_view_text" style="@style/TextAppearance.FBUi.Cell.Meta" />
-    <com.facebook.widget.text.BetterButton android:textSize="@dimen/fbui_text_size_medium" android:textColor="@color/fbui_accent_blue" android:layout_gravity="center" android:id="@id/add_files_button" android:background="@drawable/add_files_button" android:paddingLeft="@dimen/group_add_files_text_h_padding" android:paddingRight="@dimen/group_add_files_text_h_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/groups_files_empty_view_add_files_button" android:contentDescription="@string/groups_files_empty_view_add_files_button" android:textAllCaps="false" />
-</LinearLayout>

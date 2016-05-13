@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/sc_conclusion_shield" android:layout_width="72.0dip" android:layout_height="88.0dip" android:src="@drawable/shield_conclude" android:layout_centerInParent="true" />
-    <ImageView android:layout_gravity="center" android:id="@id/sc_conclusion_thumb" android:layout_width="30.0dip" android:layout_height="27.0dip" android:src="@drawable/thumb" android:layout_centerInParent="true" />
-</merge>

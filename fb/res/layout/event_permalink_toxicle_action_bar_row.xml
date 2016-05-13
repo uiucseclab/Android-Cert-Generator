@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.events.permalink.actionbar.EventsToxicleActionBar android:layout_width="fill_parent" android:layout_height="@dimen/event_permalink_action_bar_card_height" fb:overflowStyle="match_siblings"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto" />

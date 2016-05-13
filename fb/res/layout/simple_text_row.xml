@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/ozone_green_size" android:layout_marginLeft="@dimen/ozone_orange_size" android:layout_marginRight="@dimen/ozone_orange_size" android:layout_marginStart="@dimen/ozone_orange_size" android:layout_marginEnd="@dimen/ozone_orange_size">
-        <com.facebook.resources.ui.FbTextView android:textColor="@color/solid_black" android:layout_gravity="center|left" android:id="@id/left_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" />
-        <com.facebook.resources.ui.FbTextView android:textColor="@color/solid_black" android:gravity="right" android:layout_gravity="center|right" android:id="@id/right_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
-    </LinearLayout>
-</merge>

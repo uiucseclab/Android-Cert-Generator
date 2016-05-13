@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.feed.ui.PagerItemWrapperLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <com.facebook.drawee.fbpipeline.FbDraweeView android:id="@id/reaction_photo_full_width" android:layout_width="fill_parent" android:layout_height="wrap_content" fb:actualImageScaleType="centerCrop" />
-</com.facebook.feed.ui.PagerItemWrapperLayout>

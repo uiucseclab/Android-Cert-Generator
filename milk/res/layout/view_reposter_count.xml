@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="10.0dip" android:textColor="@color/more_grey_bg" android:gravity="center" android:id="@id/reposter_count" android:background="@drawable/avatar_facepile_background" android:layout_width="@dimen/facepile_background_size" android:layout_height="@dimen/facepile_background_size" android:text="@string/facepile_more_view_text" android:alpha="0.8" volt:fontPath="fonts/helv-roman.otf"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:volt="http://schemas.android.com/apk/res/com.samsung.milk.milkvideo" />

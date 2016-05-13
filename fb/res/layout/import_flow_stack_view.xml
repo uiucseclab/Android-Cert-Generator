@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/import_flow_stack_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.facebook.resources.ui.FbTextView android:textSize="@dimen/backstage_story_footer_date_text_size" android:textColor="@android:color/white" android:layout_gravity="bottom|center|left" android:id="@id/import_flow_stack_time" android:layout_width="wrap_content" android:layout_height="@dimen/backstage_story_footer_height" android:layout_marginLeft="@dimen/backstage_import_flow_grid_margin" android:layout_marginBottom="@dimen/backstage_story_seen_profile_margin" android:layout_marginStart="@dimen/backstage_import_flow_grid_margin" style="@style/WhiteTextShadow" />
-</merge>

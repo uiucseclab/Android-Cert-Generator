@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.facebook.resources.ui.FbTextView android:layout_gravity="center" android:id="@id/caption_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/msgr_inline_emojilike_picker_caption" style="@style/Widget.Messenger.Neue.CustomThreadsPickerCaptionText" />
-    <com.facebook.resources.ui.FbTextView android:layout_gravity="center" android:id="@id/subcaption_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Messenger.Neue.CustomThreadsPickerSubcaptionText" />
-    <android.support.v7.widget.RecyclerView android:id="@id/options_recycler_view" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/msgr_hot_emojilike_item_size" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" />
-</merge>

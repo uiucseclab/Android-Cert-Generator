@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fb="http://schemas.android.com/apk/res-auto">
-    <ImageButton android:layout_gravity="center|left" android:id="@id/redspace_user_titlebar_back_button" android:background="@drawable/redspace_titlebar_button_background" android:layout_width="@dimen/redspace_title_bar_button_width" android:layout_height="fill_parent" android:src="@drawable/redspace_grid" android:contentDescription="@string/generic_back" />
-    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xxlarge" android:textColor="@color/fbui_white" android:ellipsize="end" android:gravity="center" android:id="@id/redspace_user_titlebar_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" />
-    <com.facebook.widget.text.BetterTextView android:textSize="@dimen/fbui_text_size_xxlarge" android:textColor="@color/fbui_white" android:ellipsize="end" android:gravity="center" android:id="@id/redspace_user_titlebar_pending" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" />
-</merge>
